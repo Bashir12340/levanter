@@ -1,1091 +1,1091 @@
 {
   "extra": {
-    "init_session": "[{0}] در حال راه‌اندازی جلسه جدید... 🚀",
-    "load_session": "[{0}] در حال دانلود اطلاعات جلسه... 📥",
-    "invalid_session": "[{0}] {1} اوه! کلید جلسه منقضی شده. وقتشه دوباره اسکن کنی! 📸",
-    "success_session": "[{0}] وصل شدیم! جلسه معتبره و آماده‌ست. ✅",
-    "connecting": "[{0}] در حال اتصال به واتساپ... 📡",
-    "connected": "[{0}] آنلاین شدم! آماده کمکم. ⚡ {1}",
-    "instance_close": "[{0}] آفلاین میشم. بعداً میبینمت! 👋",
-    "instance_restart": "[{0}] در حال ریستارت... الان برمیگردم! 🔄",
-    "reconnect": "[{0}] اتصال قطع شد. دارم دوباره تلاش میکنم... ({1}) 🔄",
-    "reconnect_after": "[{0}] الان برمیگردم، یه چایی بخورم... ☕",
-    "another_login": "[{0}] هی، انگار یه جای دیگه هم وارد شدم! 🤨",
-    "error_message": "```--- ⚠️ گزارش خطا ⚠️ ---\n\nنسخه   : {0}\nپیام   : {1}\nخطا    : {2}\nآیدی   : {3}\nدستور  : {4}\nپلتفرم : {5}```\n\n```-----``` *ساخته شده با ❣* ```-----```",
-    "deleted_message": "🗑️ پیام حذف شده",
-    "edited_message": "✏️ پیام ویرایش‌شده #{0}",
-    "install_external_plugin": "[{0}] در حال نصب پلاگین‌های خارجی... 📦",
-    "installed_external_plugin": "[{0}] پلاگین‌های خارجی نصب شدن! 🎒",
-    "plugin_install": "[{0}] در حال بارگذاری پلاگین‌ها... 📚",
-    "plugin_installed": "[{0}] {1} نصب شد! ✅",
-    "plugins_installed": "[{0}] همه پلاگین‌ها بارگذاری شدن! 🎓",
-    "plugin_install_error": "[{0}] نصب {1} ناموفق بود، دارم حذفش میکنم. 🗑️",
-    "plugin_not_found": "[{0}] پلاگین {1} غیبش زده (404). فعلاً حذفش میکنم. 🔍💨",
-    "group_cmd": "اَه! این دستور فقط مال گروه‌هاست. 👨‍👩‍👧‍👦",
+    "init_session": "[{0}] Setting up a new session... 🚀",
+    "load_session": "[{0}] Downloading session data... 📥",
+    "invalid_session": "[{0}] {1} Oops! Session key is expired. Time for a fresh scan! 📸",
+    "success_session": "[{0}] We're in! Session is valid and ready. ✅",
+    "connecting": "[{0}] Dialing into WhatsApp... 📡",
+    "connected": "[{0}] I'm online! Ready to help. ⚡ {1}",
+    "instance_close": "[{0}] Going offline. Catch you later! 👋",
+    "instance_restart": "[{0}] Rebooting... Be right back! 🔄",
+    "reconnect": "[{0}] Connection dropped. Trying again... ({1}) 🔄",
+    "reconnect_after": "[{0}] Brb, taking a 1-minute breather... ☕",
+    "another_login": "[{0}] Hey, looks like I'm signed in elsewhere! 🤨",
+    "error_message": "```--- ⚠️ ERROR REPORT ⚠️ ---\n\nVersion  : {0}\nMessage  : {1}\nError    : {2}\nJid      : {3}\nCommand  : {4}\nPlatform : {5}```\n\n```-----``` *Made by LyFE with ❣* ```-----```",
+    "deleted_message": "🗑️ Deleted Message",
+    "edited_message": "✏️ Edited Message #{0}",
+    "install_external_plugin": "[{0}] Installing external plugins... 📦",
+    "installed_external_plugin": "[{0}] External plugins installed! 🎒",
+    "plugin_install": "[{0}] Loading plugins... 📚",
+    "plugin_installed": "[{0}] {1} installed! ✅",
+    "plugins_installed": "[{0}] All plugins loaded! 🎓",
+    "plugin_install_error": "[{0}] Failed to install {1}, removing it. 🗑️",
+    "plugin_not_found": "[{0}] Plugin {1} went missing (404). Removing it for now. 🔍💨",
+    "group_cmd": "Whoops! This one's only for the groups. 👨‍👩‍👧‍👦",
     "labels": {
-      "sudo": "🛡️ سودو",
-      "auto_read": "📖 سین خودکار پیام",
-      "auto_status": "👀 مشاهده خودکار وضعیت",
-      "auto_reject": "🚫 رد خودکار تماس",
-      "always_online": "🔋 همیشه آنلاین",
-      "anti_delete": "🛡️ ضد حذف پیام",
-      "auto_update": "🔄 آپدیت خودکار ربات"
+      "sudo": "🛡️ SUDO",
+      "auto_read": "📖 AUTO READ MSG",
+      "auto_status": "👀 AUTO STATUS VIEW",
+      "auto_reject": "🚫 AUTO REJECT CALL",
+      "always_online": "🔋 ALWAYS ONLINE",
+      "anti_delete": "🛡️ ANTI DELETE MSG",
+      "auto_update": "🔄 AUTO UPDATE BOT"
     },
-    "promoted": "ارتقا یافت",
-    "demoted": "برکنار شد",
-    "file_size_error": "وایسا! این فایل خیلی چاقه! 📂⚡\nحجم: {0}\n\n{1}",
-    "missing_jid": "صبر کن، اول یه آیدی بده تا کار کنم! 🗺️",
-    "no_contacts": "لیست مخاطبینم خالیه. یکی اضافه کن! 👥",
-    "reaction_not_enabled": "واکنش برای این کانال غیرفعاله.",
-    "reaction_not_allowed": "این واکنش برای این کانال مجاز نیست.",
-    "metadata_fetch_failed": "نتونستم اطلاعات رو بگیرم. دوباره تلاش کن 🧩",
-    "lang_not_supported": "' {0} ' برام ناشناخته‌ست، همون پیش‌فرض رو نگه میدارم. 🌐",
-    "screenshot_error": "آخ! نتونستم اسکرین‌شات بگیرم. 📸❌",
-    "id_missing": "صبر کن، یه آیدی اینجا کمه! 🕵️",
-    "not_on_whatsapp": "{0} ارواحش خبر داره — توی واتساپ نیست! 👻",
-    "yt_auth_required": "دانلود ناموفق بود! یوتیوب کلید میخواد تا راهم بده. 🗝️\n\n*راه‌حل‌ها:*\n1. *گوگل:* `.gauth auth` رو بزن تا وصل بشی.\n2. *YT_COOKIE:* متغیر `YT_COOKIE` رو ست کن.\nویکی: https://github.com/lyfe00011/levanter/wiki/yt%E2%80%90cookie\n\n*خطا:* {0}"
+    "promoted": "promoted",
+    "demoted": "demoted",
+    "file_size_error": "Whoa, that file is huge! 📂⚡\nSize: {0}\n\n{1}",
+    "missing_jid": "Wait, I need some JIDs first! 🗺️",
+    "no_contacts": "My contact list is empty. Add some friends! 👥",
+    "reaction_not_enabled": "Reactions are disabled for this channel.",
+    "reaction_not_allowed": "This reaction isn't allowed for this channel.",
+    "metadata_fetch_failed": "Failed to pull metadata. Try again? 🧩",
+    "lang_not_supported": "' {0} ' is a mystery to me, sticking with default. 🌐",
+    "screenshot_error": "Snap! Couldn't take that screenshot. 📸❌",
+    "id_missing": "Wait, I'm missing an ID here! 🕵️",
+    "not_on_whatsapp": "{0} is a ghost—not on WhatsApp! 👻",
+    "yt_auth_required": "Failed to download! YouTube needs a key to let me through. 🗝️\n\n*Solutions:*\n1. *Google Auth:* Try `.gauth auth` to link up.\n2. *YT_COOKIE:* Set the `YT_COOKIE` environment variable.\nWiki: https://github.com/lyfe00011/levanter/wiki/yt%E2%80%90cookie\n\n*Error:* {0}"
   },
   "plugins": {
     "common": {
-      "reply_to_image": "رئیس! روی یه عکس ریپلای کن تا جادوم رو ببینی. 📸✨",
-      "reply_to_message": "بچه‌ها، باید روی یه پیام ریپلای کنید! 💬🤔",
-      "not_admin": "اوه! من اینجا ادمین نیستم، رئیس. 😅 اول یه مقامی بهم بده!",
-      "not_found": "همه جا رو گشتم، ولی پیداش نکردم! 🔍🤷‍♂️",
-      "update": "تمام رئیس! همه چیز آپدیت شد و آماده‌ست. ✅🚀",
-      "spotify_download_failed": "دانلود آهنگ اسپاتیفای ناموفق بود",
-      "spotify_playlist_failed": "دریافت لیست پخش اسپاتیفای ناموفق بود",
-      "truecaller_login_prompt": "هنوز لاگین نکردی.\n\nشمارت رو بفرست تا به TrueCaller وصلت کنم.\n\nمثال: truecaller شماره_تو",
-      "truecaller_sent": "کد به شمارت ارسال شد\n\nمثال: truecaller 653084",
-      "truecaller_invalid_number": "شماره نامعتبره",
-      "truecaller_invalid_code": "کد نامعتبره",
-      "truecaller_invalid_mobile": "شماره موبایل نامعتبره",
-      "group_not_found": "{0} توی گروه وجود نداره. ۳ نفر اول: {1}",
-      "import_contacts_first": "اول مخاطبین رو وارد کن",
-      "video_not_supported": "موتور موسیقی توی این ربات ویدیو دانلود نمیکنه.",
-      "audio_disabled": "دانلود موتور موسیقی ناموفق بود و صوت یوتیوب هم غیرفعاله.",
-      "gemini_missing_api_key": "کلید GEMINI_API_KEY نیست",
-      "gemini_error": "خطا",
-      "upscale_upload_failed": "آپلود عکس ناموفق بود",
-      "upscale_invalid_response": "جواب نامعتبر از سرویس افزایش کیفیت",
-      "upscale_failed": "افزایش کیفیت عکس ناموفق بود. بعداً دوباره تلاش کن.",
-      "invalid_file_type": "خطا: فایل {0} قابل پردازش نیست",
-      "upload_failed": "خطا در آپلود فایل: {0}",
-      "yt_login_prompt": "لطفاً به اکانت یوتیوبت لاگین کن یا متغیر YT_COOKIE رو ست کن.\n\nاینجا لاگین کن => https://levanter-plugins.vercel.app/yt\n",
-      "yt_cookie_needed": "کوکی یوتیوب رو ست کن\nhttps://t.me/c/2479057503/378/2550",
-      "yt_not_found": "{0} پیدا نشد",
-      "time_day": " روز ",
-      "time_days": " روز ",
-      "time_hour": " ساعت ",
-      "time_hours": " ساعت ",
-      "time_minute": " دقیقه ",
-      "time_minutes": " دقیقه ",
-      "time_second": " ثانیه",
-      "time_seconds": " ثانیه"
+      "reply_to_image": "Hey Boss! Reply to an image to let me work my magic. 📸✨",
+      "reply_to_message": "Guys, I need a message to reply to! 💬🤔",
+      "not_admin": "Oops! I'm not an admin here, Boss. 😅 Please grant me some power first!",
+      "not_found": "I searched everywhere, but couldn't find that! 🔍🤷‍♂️",
+      "update": "Done, Boss! Everything is updated and ready to go. ✅🚀",
+      "spotify_download_failed": "failed to download spotify track",
+      "spotify_playlist_failed": "failed to fetch spotify playlist",
+      "truecaller_login_prompt": "You're not logged in.\n\nPlease send your number to log in to truecaller.\n\nExample : truecaller your_number",
+      "truecaller_sent": "The code has been sent to your number\n\nExample : truecaller 653084",
+      "truecaller_invalid_number": "invalid number",
+      "truecaller_invalid_code": "invalid code",
+      "truecaller_invalid_mobile": "invalid mobile number",
+      "group_not_found": "{0} does not exist in the group. First 3 participants: {1}",
+      "import_contacts_first": "import contacts first",
+      "video_not_supported": "Music engine does not support video downloads in this bot.",
+      "audio_disabled": "Music engine download failed and YouTube audio is disabled.",
+      "gemini_missing_api_key": "missing GEMINI_API_KEY",
+      "gemini_error": "error",
+      "upscale_upload_failed": "Failed to upload image",
+      "upscale_invalid_response": "Invalid response from upscale service",
+      "upscale_failed": "Failed to upscale image. Please try again later.",
+      "invalid_file_type": "Error: {0}-file cannot be processed",
+      "upload_failed": "Error uploading file: {0}",
+      "yt_login_prompt": "Please Login to your youtube account or set var YT_COOKIE.\n\nLogin Here => https://levanter-plugins.vercel.app/yt\n",
+      "yt_cookie_needed": "Set Yt Cookie\nhttps://t.me/c/2479057503/378/2550",
+      "yt_not_found": "{0} not found",
+      "time_day": " day ",
+      "time_days": " days ",
+      "time_hour": " hour ",
+      "time_hours": " hours ",
+      "time_minute": " minute ",
+      "time_minutes": " minutes ",
+      "time_second": " second",
+      "time_seconds": " seconds"
     },
     "menu": {
-      "help": "```╭────────────────╮\n      لِوَنتِر\n╰────────────────╯\n\n╭────────────────\n│ پیشوند : {0}\n│ کاربر : {1}\n│ ساعت : {2}\n│ روز : {3}\n│ تاریخ : {4}\n│ نسخه : {5}\n│ پلاگین : {6}\n│ رم : {7}\n│ آپتایم : {8}\n│ پلتفرم : {9}\n╰────────────────```",
-      "menu": "```╭═══ لِوَنتِر ═══⊷\n┃❃╭──────────────\n┃❃│ پیشوند : {0}\n┃❃│ کاربر : {1}\n┃❃│ ساعت : {2}\n┃❃│ روز : {3}\n┃❃│ تاریخ : {4}\n┃❃│ نسخه : {5}\n┃❃│ پلاگین : {6}\n┃❃│ رم : {7}\n┃❃│ آپتایم : {8}\n┃❃│ پلتفرم : {9}\n┃❃╰───────────────\n╰═════════════════⊷```",
-      "disabled": "غیرفعال"
+      "help": "```╭────────────────╮\n      ʟᴇᴠᴀɴᴛᴇʀ\n╰────────────────╯\n\n╭────────────────\n│ Prefix : {0}\n│ User : {1}\n│ Time : {2}\n│ Day : {3}\n│ Date : {4}\n│ Version : {5}\n│ Plugins : {6}\n│ Ram : {7}\n│ Uptime : {8}\n│ Platform : {9}\n╰────────────────```",
+      "menu": "```╭═══ LEVANTER ═══⊷\n┃❃╭──────────────\n┃❃│ Prefix : {0}\n┃❃│ User : {1}\n┃❃│ Time : {2}\n┃❃│ Day : {3}\n┃❃│ Date : {4}\n┃❃│ Version : {5}\n┃❃│ Plugins : {6}\n┃❃│ Ram : {7}\n┃❃│ Uptime : {8}\n┃❃│ Platform : {9}\n┃❃╰───────────────\n╰═════════════════⊷```",
+      "disabled": "disabled"
     },
     "afk": {
-      "example": "> *راهنمای AFK:*\n- فعال‌سازی: *afk [دلیل]*\n- مثال: *afk سرم شلوغه* آخرین بازدید #lastseen پیش\n- ارسال پیام خودکار AFK رو غیرفعال میکنه\n- غیرفعال‌سازی دستی: *afk off*",
-      "not_afk": "خوش اومدی! دیگه AFK نیستی. 👋",
-      "desc": "تنظیم وضعیت غیبت"
+      "example": "> *AFK Usage:*\n- Set AFK: *afk [reason]*\n- Example: *afk I am busy* Last seen #lastseen ago\n- Sending a message automatically removes AFK status\n- Disable AFK: *afk off*",
+      "not_afk": "Welcome back! You're no longer AFK. 👋",
+      "desc": "Set your AFK status"
     },
     "alive": {
-      "default": "اینجا و آماده‌ام! 🚀\nآپتایم : #uptime",
-      "desc": "بررسی فعال بودن ربات"
+      "default": "I'm here and ready! 🚀\nUptime : #uptime",
+      "desc": "Check if the bot is active."
     },
     "antifake": {
-      "example": "*وضعیت ضد جعلی:* {0}\n\n> *راهنمای دستورات:*\n- *antifake list* - مشاهده حالت فعلی و کدها\n- *antifake allow 1,91* - حالت لیست سفید: فقط این کدها مجازن\n- *antifake disallow 92,93* - حالت لیست سیاه: این کدها ممنوعن\n- *antifake remove 91* - حذف کد از لیست\n- *antifake clear* - پاک کردن همه کدها و غیرفعال‌سازی\n- *antifake on | off* - فعال/غیرفعال\n\n> *توجه:* نمیشه لیست سفید و سیاه رو با هم داشت. اول `clear` بزن.",
-      "desc": "فعال یا تنظیم ضد شماره جعلی (حالت لیست سفید یا سیاه)",
-      "not": "کد کشوری تنظیم نشده.",
-      "status": "ضد جعلی الان *{0}* هست.",
-      "update": "> ضد جعلی آپدیت شد\n*مجاز:* {0}\n*غیرمجاز:* {1}",
-      "allow_prompt": "*لطفاً کدهای کشور مجاز رو بده*\n_مثال: antifake allow 1,91_",
-      "disallow_prompt": "*لطفاً کدهای کشور غیرمجاز رو بده*\n_مثال: antifake disallow 92,93_",
-      "remove_prompt": "*لطفاً کدهایی که میخوای حذف بشه رو بده*\n_مثال: antifake remove 91_",
-      "mode_conflict_whitelist": "*⚠️ نمیشه دو حالت رو با هم داشت!*\n\n_الان توی حالت لیست سیاهی. اول `antifake clear` بزن تا به لیست سفید تغییر بدی._",
-      "mode_conflict_blacklist": "*⚠️ نمیشه دو حالت رو با هم داشت!*\n\n_الان توی حالت لیست سفیدی. اول `antifake clear` بزن تا به لیست سیاه تغییر بدی._",
-      "whitelist_success": "*✅ کدهای مجاز (حالت لیست سفید):*\n{0}\n\n_فقط این کدها مجازن، بقیه مسدود میشن._",
-      "blacklist_success": "*🚫 کدهای غیرمجاز (حالت لیست سیاه):*\n{0}\n\n_این کدها مسدود میشن، بقیه مجازن._",
-      "removed": "*کدهای حذف‌شده:*\n{0}",
-      "cleared": "*🗑️ لیست ضد جعلی پاک و غیرفعال شد*",
-      "whitelist_mode": "🟢 حالت لیست سفید (فقط مجازها)",
-      "blacklist_mode": "🔴 حالت لیست سیاه (فقط ممنوع‌ها)",
-      "enabled": "فعال",
-      "disabled": "غیرفعال"
+      "example": "*Antifake Status:* {0}\n\n> *Command Usage:*\n- *antifake list* - View current mode and codes\n- *antifake allow 1,91* - Whitelist Mode: Allow these codes, block all others\n- *antifake disallow 92,93* - Blacklist Mode: Block these codes, allow all others\n- *antifake remove 91* - Remove code from list\n- *antifake clear* - Clear all codes and disable\n- *antifake on | off* - Enable/Disable\n\n> *Note:* Cannot mix whitelist and blacklist modes. Use `clear` to switch modes.",
+      "desc": "Enable or configure anti-fake number (whitelist or blacklist mode)",
+      "not": "No country codes configured.",
+      "status": "Antifake is now *{0}*.",
+      "update": "> Antifake Updated\n*Allowed:* {0}\n*Not Allowed:* {1}",
+      "allow_prompt": "*Please provide country codes to allow (whitelist mode)*\n_Example: antifake allow 1,91_",
+      "disallow_prompt": "*Please provide country codes to disallow (blacklist mode)*\n_Example: antifake disallow 92,93_",
+      "remove_prompt": "*Please provide country codes to remove*\n_Example: antifake remove 91_",
+      "mode_conflict_whitelist": "*⚠️ Cannot mix modes!*\n\n_You are currently in Blacklist Mode. Use `antifake clear` first to switch to Whitelist Mode._",
+      "mode_conflict_blacklist": "*⚠️ Cannot mix modes!*\n\n_You are currently in Whitelist Mode. Use `antifake clear` first to switch to Blacklist Mode._",
+      "whitelist_success": "*✅ Allowed country codes (Whitelist Mode):*\n{0}\n\n_These codes will be allowed, all others will be blocked._",
+      "blacklist_success": "*🚫 Disallowed country codes (Blacklist Mode):*\n{0}\n\n_These codes will be blocked, all others will be allowed._",
+      "removed": "*Removed country codes:*\n{0}",
+      "cleared": "*🗑️ Antifake list cleared and disabled*",
+      "whitelist_mode": "🟢 Whitelist Mode (Allow Only)",
+      "blacklist_mode": "🔴 Blacklist Mode (Block Only)",
+      "enabled": "enabled",
+      "disabled": "disabled"
     },
     "antilink": {
-      "desc": "فعال‌سازی یا تنظیم ضد لینک",
-      "disable": "_ضد لینک از قبل غیرفعاله._",
-      "antilink_notset": "ضد لینک طوری تنظیم شده که همه لینک‌ها رو بلوکه کنه (لیستی تنظیم نشده). از 'antilink allow' یا 'antilink disallow' استفاده کن.",
-      "status": "ضد لینک الان *{0}* هست.",
-      "info": "> وضعیت ضد لینک: {0}\n*لینک‌های مجاز:* {1}\n *عملیات:* {2}",
-      "action_invalid": "*عملیات نامعتبره.*",
-      "action_update": "عملیات ضد لینک تغییر کرد به: *{0}*",
-      "update": "> ضد لینک آپدیت شد\n*مجاز:* {0}\n*غیرمجاز:* {1}",
-      "enabled": "فعال",
-      "disabled": "غیرفعال",
-      "example": "وضعیت ضد لینک: *{0}*\n\n> *مثال‌های استفاده:*\n- antilink list - مشاهده تنظیمات فعلی\n- antilink allow whatsapp.com - اجازه به لینک خاص\n- antilink disallow facebook.com - مسدود کردن لینک خاص\n- antilink clear allow - پاک کردن لینک‌های مجاز\n- antilink clear disallow - پاک کردن لینک‌های مسدود\n- antilink on | off - فعال/غیرفعال\n- antilink kick | warn | null - تنظیم عملیات نقض",
-      "allow_prompt": "*لطفاً یه لینک مجاز بده.*",
-      "no_new_urls": "*لینک جدیدی نیست.* همه لینک‌ها از قبل توی لیستن.",
-      "urls_updated": "*لینک‌های مجاز آپدیت شدن*\n\nاضافه‌شده: {0}\nکل: {1} لینک\n\n_توجه: حروف بزرگ و کوچک فرقی ندارن_",
-      "disallow_prompt": "*لطفاً یه لینک غیرمجاز بده.*",
-      "no_disallowed_urls": "*لینک جدیدی برای مسدودی نیست.* همه از قبل مسدودن.",
-      "disallowed_updated": "*لینک‌های مسدود آپدیت شدن*\n\nاضافه‌شده به لیست سیاه: {0}\nکل مسدود: {1} لینک\n\n_توجه: حروف بزرگ و کوچک فرقی ندارن_",
-      "settings_cleared": "*تنظیمات ضد لینک پاک شد.*",
-      "allowed_cleared": "*لینک‌های مجاز پاک شدن.*",
-      "disallowed_cleared": "*لینک‌های مسدود پاک شدن.*"
+      "desc": "Enable or configure anti-link",
+      "disable": "_Antilink is already disabled._",
+      "antilink_notset": "Antilink is configured to block all links (no URL list set). Use 'antilink allow' or 'antilink disallow' to configure specific URLs.",
+      "status": "Antilink is now *{0}*.",
+      "info": "> Antilink Status: {0}\n*Allowed URLs:* {1}\n *Action :* {2}",
+      "action_invalid": "*Invalid action specified.*",
+      "action_update": "Antilink action updated to: *{0}*",
+      "update": "> Antilink Updated\n*Allowed:* {0}\n*Not Allowed:* {1}",
+      "enabled": "enabled",
+      "disabled": "disabled",
+      "example": "Antilink Status: *{0}*\n\n> Usage Examples:\n- antilink list - View current settings\n- antilink allow whatsapp.com - Allow specific URLs\n- antilink disallow facebook.com - Disallow specific URLs\n- antilink clear allow - Clear allowed URLs\n- antilink clear disallow - Clear disallowed URLs\n- antilink on | off - Enable/Disable antilink\n- antilink kick | warn | null - Set action for link",
+      "allow_prompt": "*Please provide a URL to allow.*",
+      "no_new_urls": "*No new URLs to add.* All URLs already exist in the list.",
+      "urls_updated": "*Allowed URLs updated*\n\nAdded: {0}\nTotal: {1} URL(s)\n\n_Note: URLs are case-insensitive_",
+      "disallow_prompt": "*Please provide a URL to disallow.*",
+      "no_disallowed_urls": "*No new URLs to disallow.* All URLs are already disallowed.",
+      "disallowed_updated": "*Disallowed URLs updated*\n\nAdded to blocklist: {0}\nTotal blocked: {1} URL(s)\n\n_Note: URLs are case-insensitive_",
+      "settings_cleared": "*Antilink settings cleared.*",
+      "allowed_cleared": "*Allowed URLs cleared.*",
+      "disallowed_cleared": "*Disallowed URLs cleared.*"
     },
     "antiword": {
-      "desc": "فیلتر کلمات خاص در چت گروه",
-      "example": "وضعیت ضد کلمه: {0}\n> *مثال‌های استفاده:*\n- antiword kick | warn | null - تنظیم عملیات نقض\n- antiword on | off - فعال/غیرفعال\n- antiword add کلمه1,کلمه2 - اضافه کردن به لیست سیاه\n- antiword remove کلمه1,کلمه2 - حذف از لیست سیاه\n- antiword list - مشاهده کلمات مسدود",
-      "action_update": "عملیات ضد کلمه تغییر کرد به: *{0}*",
-      "status": "ضد کلمه الان *{0}* هست.",
-      "add_prompt": "*لطفاً کلمات مورد نظر رو بده.*",
-      "added": "*کلمات اضافه شدن:*\n{0}",
-      "remove_prompt": "*لطفاً کلماتی که میخوای حذف بشه رو بده.*",
-      "removed": "*کلمات حذف شدن:*\n{0}",
-      "activated": "فعال شد",
-      "deactivated": "غیرفعال شد",
-      "no_words": "*کلمه‌ای تنظیم نشده.*",
-      "info": "*وضعیت ضد کلمه:* {0}\n*عملیات:* {1}\n\n*کلمات:* {2}",
-      "cleared": "*لیست ضد کلمه پاک شد.*"
+      "desc": "Filter specific words in the group chat",
+      "example": "AntiWord Status: {0}\n> *Usage Examples:*\n- antiword kick | warn | null - Set action for violations\n- antiword on | off - Enable/Disable word filtering\n- antiword add word1,word2 - Add words to block list\n- antiword remove word1,word2 - Remove words from block list\n- antiword list - View blocked words",
+      "action_update": "AntiWord action updated to: *{0}*",
+      "status": "AntiWord is now *{0}*.",
+      "add_prompt": "*Please provide words to add.*",
+      "added": "*Words added:*\n{0}",
+      "remove_prompt": "*Please provide words to remove.*",
+      "removed": "*Words removed:*\n{0}",
+      "activated": "activated",
+      "deactivated": "deactivated",
+      "no_words": "*No words set.*",
+      "info": "*AntiWord Status:* {0}\n*Action:* {1}\n\n*Words:* {2}",
+      "cleared": "*AntiWord list cleared.*"
     },
     "apk": {
-      "desc": "دانلود فایل‌های APK از APKMirror. 📱",
-      "example": "> *مثال:*\n- apk Mixplorer\n- apk whatsapp,apkm",
-      "no_result": "اپلیکیشن پیدا نشد. 🔍",
-      "apps_list": "اپ‌های پیدا شده ({0}) 📱"
+      "desc": "Get APKs from APKMirror. 📱",
+      "example": "> *Example:*\n- apk Mixplorer\n- apk whatsapp,apkm",
+      "no_result": "Couldn't find that app. 🔍",
+      "apps_list": "Matching Apps ({0}) 📱"
     },
     "delete": {
-      "desc": "ضد حذف: بازیابی پیام‌های حذف‌شده",
-      "example": "> *مثال‌های استفاده:*\n- delete g - ارسال پیام‌های حذف‌شده در همین چت\n- delete p - ارسال به چت خودت/سودو\n- delete g pm - همین چت، فقط پیام‌های خصوصی\n- delete g gm - همین چت، فقط پیام‌های گروهی\n- delete p no-gm - به سودو، بدون گروه‌ها\n- delete p no-pm - به سودو، بدون چت‌های خصوصی\n- delete <jid> - ارسال به آیدی خاص\n- delete <jid> gm - به آیدی، فقط گروه‌ها\n- delete off - غیرفعال‌سازی ضد حذف\n\n*محدوده‌ها:* pm, gm, no-pm, no-gm",
-      "invalid_jid": "*خطا:* _آیدی نامعتبر_",
-      "dlt_dest_jid": "_پیام‌های حذف‌شده به اینجا ارسال میشن: {0}_",
-      "dlt_dest_sudo": "_پیام‌های حذف‌شده به چت خودت یا سودو ارسال میشن._",
-      "dlt_dest_chat": "_پیام‌های حذف‌شده در خود چت ارسال میشن._",
-      "dlt_scope_pm": "📌 _فقط چت‌های خصوصی_",
-      "dlt_scope_gm": "📌 _فقط چت‌های گروهی_",
-      "dlt_scope_no_pm": "📌 _به‌جز چت‌های خصوصی_",
-      "dlt_scope_no_gm": "📌 _به‌جز چت‌های گروهی_",
-      "dlt_msg_disable": "ضد حذف غیرفعال شد."
+      "desc": "Anti-delete: Recover deleted messages",
+      "example": "> *Usage Examples:*\n- delete g - Send deleted messages in the same chat\n- delete p - Send deleted messages to your chat/sudo\n- delete g pm - Same chat, only personal messages\n- delete g gm - Same chat, only group messages\n- delete p no-gm - To sudo, exclude groups\n- delete p no-pm - To sudo, exclude personal chats\n- delete <jid> - Send to a specific JID\n- delete <jid> gm - To JID, only groups\n- delete off - Disable anti-delete\n\n*Scopes:* pm, gm, no-pm, no-gm",
+      "invalid_jid": "*Error:* _Invalid JID_",
+      "dlt_dest_jid": "_Deleted messages will be sent to: {0}_",
+      "dlt_dest_sudo": "_Deleted messages will be sent to your chat or sudo._",
+      "dlt_dest_chat": "_Deleted messages will be sent to the chat itself._",
+      "dlt_scope_pm": "📌 _Only for personal chats_",
+      "dlt_scope_gm": "📌 _Only for group chats_",
+      "dlt_scope_no_pm": "📌 _Excluding personal chats_",
+      "dlt_scope_no_gm": "📌 _Excluding group chats_",
+      "dlt_msg_disable": "Anti-delete has been disabled."
     },
     "antiedit": {
-      "desc": "ضد ویرایش: ردیابی پیام‌های ویرایش‌شده و نمایش تاریخچه",
-      "example": "> *مثال‌های استفاده:*\n- antiedit g - ارسال تاریخچه ویرایش در همین چت\n- antiedit p - ارسال به چت خودت/سودو\n- antiedit g pm - همین چت، فقط پیام‌های خصوصی\n- antiedit g gm - همین چت، فقط پیام‌های گروهی\n- antiedit p no-gm - به سودو، بدون گروه‌ها\n- antiedit p no-pm - به سودو، بدون چت‌های خصوصی\n- antiedit <jid> - ارسال به آیدی خاص\n- antiedit <jid> gm - به آیدی، فقط گروه‌ها\n- antiedit off - غیرفعال‌سازی ضد ویرایش\n\n*محدوده‌ها:* pm, gm, no-pm, no-gm",
-      "invalid_jid": "*خطا:* _آیدی نامعتبر_",
-      "edit_dest_jid": "_تاریخچه ویرایش به اینجا ارسال میشه: {0}_",
-      "edit_dest_sudo": "_تاریخچه ویرایش به چت خودت یا سودو ارسال میشه._",
-      "edit_dest_chat": "_تاریخچه ویرایش در خود چت ارسال میشه._",
-      "edit_scope_pm": "📌 _فقط چت‌های خصوصی_",
-      "edit_scope_gm": "📌 _فقط چت‌های گروهی_",
-      "edit_scope_no_pm": "📌 _به‌جز چت‌های خصوصی_",
-      "edit_scope_no_gm": "📌 _به‌جز چت‌های گروهی_",
-      "edit_msg_disable": "ضد ویرایش غیرفعال شد."
+      "desc": "Anti-edit: Track edited messages and show their history",
+      "example": "> *Usage Examples:*\n- antiedit g - Send edit history in the same chat\n- antiedit p - Send edit history to your chat/sudo\n- antiedit g pm - Same chat, only personal messages\n- antiedit g gm - Same chat, only group messages\n- antiedit p no-gm - To sudo, exclude groups\n- antiedit p no-pm - To sudo, exclude personal chats\n- antiedit <jid> - Send to a specific JID\n- antiedit <jid> gm - To JID, only groups\n- antiedit off - Disable anti-edit\n\n*Scopes:* pm, gm, no-pm, no-gm",
+      "invalid_jid": "*Error:* _Invalid JID_",
+      "edit_dest_jid": "_Edit history will be sent to: {0}_",
+      "edit_dest_sudo": "_Edit history will be sent to your chat or sudo._",
+      "edit_dest_chat": "_Edit history will be sent to the chat itself._",
+      "edit_scope_pm": "📌 _Only for personal chats_",
+      "edit_scope_gm": "📌 _Only for group chats_",
+      "edit_scope_no_pm": "📌 _Excluding personal chats_",
+      "edit_scope_no_gm": "📌 _Excluding group chats_",
+      "edit_msg_disable": "Anti-edit has been disabled."
     },
     "dlt": {
-      "desc": "حذف پیامی که روش ریپلای کردی. 🗑️"
+      "desc": "Delete the message you're replying to. 🗑️"
     },
     "fb": {
-      "desc": "دانلود ویدیوهای فیسبوک. 🎬",
-      "example": "*مثال:* fb https://www.facebook.com/...",
-      "quality": "چه کیفیتی میخوای؟ 🎬",
-      "invalid": "ویدیویی پیدا نکردم. ❌"
+      "desc": "Download Facebook videos. 🎬",
+      "example": "*Example:* fb https://www.facebook.com/...",
+      "quality": "Which quality do you want? 🎬",
+      "invalid": "I couldn't find any video there. ❌"
     },
     "fancy": {
-      "desc": "ساخت متن فانتزی برای پیام‌هات! ✨",
-      "example": "> *نحوه استفاده:*\nfancy <متن>\nfancy <شماره_فونت> (ریپلای روی پیام)\n\n*مثال:*\n- fancy سلام دنیا 🌟\n- fancy 7 (موقع ریپلای)",
-      "invalid": "*اوه! شماره فونت نامعتبره.* ❌\nلطفاً عددی بین *1 تا 47* انتخاب کن."
+      "desc": "Create fancy text for your messages! ✨",
+      "example": "> *How to Use:*\nfancy <text>\nfancy <font_number> (reply to a message)\n\n*Example:*\n- fancy Hello World 🌟\n- fancy 7 (while replying)",
+      "invalid": "*Oops! Invalid Font Number.* ❌\nPlease pick a number between *1-47*."
     },
     "stop": {
-      "desc": "توقف یه فیلتر در این چت. ⏹️",
-      "example": "> *استفاده:*\n- stop <نام_فیلتر>\n- stop hi",
-      "delete": "فهمیدم! فیلتر *{0}* متوقف شد. 🗑️",
-      "not_found": "_{0} توی لیست فیلترهای این چت نیست._ 😅"
+      "desc": "Stop a filter in this chat. ⏹️",
+      "example": "> *Usage:*\n- stop <filter_name>\n- stop hi",
+      "delete": "Got it! Filter *{0}* has been stopped. 🗑️",
+      "not_found": "_{0} isn't in my filter list for this chat._ 😅"
     },
     "filter": {
-      "desc": "تنظیم فیلترهای کلمه‌ای سفارشی برای این گروه. 🛠️",
-      "example": "> *مثال:*\n- filter سلام (ریپلای روی یه پیام)\n- filter list (مشاهده فیلترهای فعال) 👀",
-      "list": "> *فیلترهای فعال این چت:* 👀\n{0}",
-      "filter_add": "✅ فیلتر *{0}* فعال شد!"
+      "desc": "Set up custom keyword filters for this group. 🛠️",
+      "example": "> *Example:*\n- filter hi (by replying to a message)\n- filter list (to see all active filters) 👀",
+      "list": "> *Active Filters for this chat:* 👀\n{0}",
+      "filter_add": "✅ Filter *{0}* is now active!"
     },
     "forward": {
-      "desc": "فوروارد پیام به کس دیگه! 📩",
-      "foward": "پیام به {0} ارسال شد ✅",
-      "example": "*خطا: آیدی نامعتبر!* ❌\n> *استفاده:*\n- forward <jid>\n- forward 1234567890@s.whatsapp.net"
+      "desc": "Forward a message to someone else! 📩",
+      "foward": "Message sent to: {0} ✅",
+      "example": "*Error: Invalid JID!* ❌\n> *Usage:*\n- forward <jid>\n- forward 1234567890@s.whatsapp.net"
     },
     "save": {
-      "desc": "ذخیره پیام توی چت خودت. 💾",
-      "save": "پیام به گاوصندوق شخصیت ذخیره شد! 🔒"
+      "desc": "Save a message to your own chat. 💾",
+      "save": "Message saved to your personal vault! 🔒"
     },
     "gemini": {
-      "desc": "چت با هوش مصنوعی گوگل Gemini! 🤖",
-      "example": "> *مثال:*\n- gemini سلام\n- gemini توی این عکس چی هست؟ (ریپلای روی عکس) 📷",
-      "Key": "> *صبر کن!* کلید API جمینی ندارم! 🔑\nاز اینجا بگیر: https://aistudio.google.com/app/apikey\n\n*اینجوری ست کن:*\nsetvar GEMINI_API_KEY = کلید_تو"
+      "desc": "Chat with Google Gemini AI! 🤖",
+      "example": "> *Example:*\n- gemini hi\n- gemini what is in the picture? (by replying to an image) 📷",
+      "Key": "> *Wait!* I'm missing the Gemini API Key! 🔑\nGet one here: https://aistudio.google.com/app/apikey\n\n*Set it up like this:*\nsetvar GEMINI_API_KEY = your_api_key"
     },
     "gstop": {
-      "desc": "توقف یه فیلتر سراسری در همه گروه‌ها. 🛑",
-      "example": "> *استفاده:*\n- gstop <نام_فیلتر>\n- gstop hi",
-      "delete": "فیلتر سراسری *{0}* برای همیشه رفت! 🗑️",
-      "not_found": "_{0} توی لیست فیلترهای سراسری نیست._ 😅"
+      "desc": "Stop a global filter in all groups. 🛑",
+      "example": "> *Usage:*\n- gstop <filter_name>\n- gstop hi",
+      "delete": "Global filter *{0}* is now history! 🗑️",
+      "not_found": "_{0} isn't in the global filter list._ 😅"
     },
     "pstop": {
-      "desc": "توقف یه فیلتر شخصی. ⏹️",
-      "example": "> *استفاده:*\n- pstop <نام_فیلتر>\n- pstop hi",
-      "delete": "فیلتر شخصی *{0}* حذف شد. 🗑️",
-      "not_found": "_{0} توی فیلترهای شخصیت نیست._ 😅"
+      "desc": "Stop a personal filter. ⏹️",
+      "example": "> *Usage:*\n- pstop <filter_name>\n- pstop hi",
+      "delete": "Personal filter *{0}* has been removed. 🗑️",
+      "not_found": "_{0} isn't in your personal filters._ 😅"
     },
     "gfilter": {
-      "desc": "مدیریت فیلترهایی که توی همه گروه‌ها کار میکنن. 🌍",
-      "example": "> *مثال:*\n- gfilter سلام (ریپلای روی پیام)\n- gfilter list (مشاهده فیلترهای سراسری) 👀",
-      "add": "🌍 فیلتر سراسری *{0}* همه‌جا فعال شد!"
+      "desc": "Manage filters that work across ALL groups. 🌍",
+      "example": "> *Example:*\n- gfilter hi (by replying to a message)\n- gfilter list (to see all global filters) 👀",
+      "add": "🌍 Global filter *{0}* is now active everywhere!"
     },
     "pfilter": {
-      "desc": "مدیریت فیلترهایی که فقط توی چت‌های شخصیت کار میکنن. 👤",
-      "example": "> *مثال:*\n- pfilter سلام (ریپلای روی پیام متنی)\n- pfilter list (نمایش فیلترهای شخصی فعلی)",
-      "add": "*{0}* فیلتر شخصی اضافه شد"
+      "desc": "Manage filters that work only in your personal chats. 👤",
+      "example": "> *Example :*\n- pfilter hi (while replying to a text message)\n- pfilter list (Shows current pfilters)",
+      "add": "*{0}* pfilter added"
     },
     "gpp": {
-      "desc": "تغییر عکس گروه",
-      "update": "_عکس گروه آپدیت شد_"
+      "desc": "change group icon",
+      "update": "_Group icon Updated_"
     },
     "greet": {
-      "setdesc": "تنظیم پیام خوش‌آمدگویی شخصی",
-      "setexample": "> *مثال:* setgreet سلام، من رباتم. صاحبم زود جواب میده.",
-      "setupdate": "_پیام خوش‌آمدگویی آپدیت شد._",
-      "getdesc": "نمایش پیام خوش‌آمدگویی تنظیم‌شده",
-      "notsetgreet": "> پیام خوش‌آمدگویی تنظیم نشده.",
-      "deldesc": "حذف پیام خوش‌آمدگویی شخصی",
-      "delupdate": "پیام خوش‌آمدگویی حذف شد."
+      "setdesc": "Set a personalized greeting message",
+      "setexample": "> *Example:* setgreet Hi, this is a bot. My boss will reply shortly.",
+      "setupdate": "_Greeting message has been updated._",
+      "getdesc": "Retrieve the personalized greeting message",
+      "notsetgreet": "> No greeting message has been set.",
+      "deldesc": "Delete the personalized greeting message",
+      "delupdate": "Greeting message has been deleted."
     },
     "greetings": {
-      "welcome_desc": "ارسال پیام خوش‌آمدگویی به اعضای جدید",
-      "welcome_example": "خوش‌آمدگویی الان *{0}* هست\n\n> *مثال‌های استفاده:*\n- welcome سلام &mention! به &name خوش اومدی - تنظیم پیام\n- welcome on | off - فعال/غیرفعال\n- welcome delete - حذف پیام\n\n> *جایگزین‌ها:*\n- &mention - منشن عضو جدید\n- &name - نام گروه\n- &desc - توضیحات گروه\n- &size - تعداد اعضا\n- &pp - عکس پروفایل عضو\n\n> *رسانه:* روی عکس/ویدیو ریپلای کن یا لینک بذار\n\nجزئیات بیشتر: https://levanter.site/",
-      "welcome_enable": "_خوش‌آمدگویی فعال شد_",
-      "welcome_disable": "_خوش‌آمدگویی غیرفعال شد_",
-      "welcome_delete": "_پیام خوش‌آمدگویی حذف شد_",
-      "welcome_not_set": "_لطفاً اول پیام خوش‌آمدگویی رو تنظیم کن!_\n\n> *مثال:*\nwelcome سلام &mention! به &name خوش اومدی\n\nبعد بزن: welcome on",
-      "goodbye_desc": "ارسال پیام خداحافظی به اعضا",
-      "goodbye_example": "خداحافظی الان *{0}* هست\n\n> *مثال‌های استفاده:*\n- goodbye خداحافظ &mention! به امید دیدار - تنظیم پیام\n- goodbye on | off - فعال/غیرفعال\n- goodbye delete - حذف پیام\n\n> *جایگزین‌ها:*\n- &mention - منشن عضو خارج‌شده\n- &name - نام گروه\n- &desc - توضیحات گروه\n- &size - تعداد اعضا\n- &pp - عکس پروفایل عضو\n\n> *رسانه:* روی عکس/ویدیو ریپلای کن یا لینک بذار\n\nجزئیات بیشتر: https://levanter.site/",
-      "goodbye_enable": "_خداحافظی فعال شد_",
-      "goodbye_disable": "_خداحافظی غیرفعال شد_",
-      "goodbye_delete": "_پیام خداحافظی حذف شد_",
-      "goodbye_not_set": "_لطفاً اول پیام خداحافظی رو تنظیم کن!_\n\n> *مثال:*\ngoodbye خداحافظ &mention! ممنون که باهامون بودی\n\nبعد بزن: goodbye on"
+      "welcome_desc": "Send a welcome message to new members",
+      "welcome_example": "Welcome is currently *{0}*\n\n> *Usage Examples:*\n- welcome Hi &mention! Welcome to &name - Set welcome message\n- welcome on | off - Enable/Disable\n- welcome delete - Delete message\n\n> *Placeholders:*\n- &mention - Mention new member\n- &name - Group name\n- &desc - Group description\n- &size - Member count\n- &pp - Member's profile picture\n\n> *Media:* Reply to image/video OR include URL in message\n\nFor more details: https://levanter.site/",
+      "welcome_enable": "_Welcome is now enabled_",
+      "welcome_disable": "_Welcome is now disabled_",
+      "welcome_delete": "_Welcome message deleted_",
+      "welcome_not_set": "_Please set a welcome message first!_\n\n> *Example:*\nwelcome Hi &mention! Welcome to &name\n\nThen use: welcome on",
+      "goodbye_desc": "Send a goodbye message to members",
+      "goodbye_example": "Goodbye is currently *{0}*\n\n> *Usage Examples:*\n- goodbye Bye &mention! See you later - Set goodbye message\n- goodbye on | off - Enable/Disable\n- goodbye delete - Delete message\n\n> *Placeholders:*\n- &mention - Mention leaving member\n- &name - Group name\n- &desc - Group description\n- &size - Member count\n- &pp - Member's profile picture\n\n> *Media:* Reply to image/video OR include URL in message\n\nFor more details: https://levanter.site/",
+      "goodbye_enable": "_Goodbye is now enabled_",
+      "goodbye_disable": "_Goodbye is now disabled_",
+      "goodbye_delete": "_Goodbye message deleted_",
+      "goodbye_not_set": "_Please set a goodbye message first!_\n\n> *Example:*\ngoodbye Bye &mention! Thanks for being with us\n\nThen use: goodbye on"
     },
     "groq": {
-      "example": "*مثال:* groq سلام\n\nمیتونی این متغیرهای محیطی رو هم ست کنی:\n- GROQ_API_KEY\n- GROQ_MODEL\n- GROQ_SYSTEM_MSG\n\nبرای اطلاعات بیشتر: https://console.groq.com/keys",
-      "desc": "تعامل با هوش مصنوعی GROQ"
+      "example": "*Example:* groq Hi\n\nYou can optionally set the following environment variables:\n- GROQ_API_KEY\n- GROQ_MODEL\n- GROQ_SYSTEM_MSG\n\nFor more details, visit: https://console.groq.com/keys",
+      "desc": "Interact with GROQ AI"
     },
     "kick": {
-      "desc": "پرت کردن یکی از گروه بیرون. 🚪",
-      "not_admin": "باید ادمین باشم تا بتونم کسی رو پرت کنم! 😅",
-      "mention_user": "هدف کیه؟ منشنش کن یا روی پیامش ریپلای کن. 🎯",
-      "admin": "به این یکی دست نزن! ادمینه. 🛡️",
-      "kicking_all": "دارم خونه رو تمیز میکنم! اخراج همه غیرادمین‌ها... ({0} نفر). ریستارت کن تا متوقف بشه. 🧹"
+      "desc": "Kick someone out of the group. 🚪",
+      "not_admin": "I need to be an admin to kick people! 😅",
+      "mention_user": "Who's the target? Mention them or reply to their message. 🎯",
+      "admin": "Can't touch this! They're an admin. 🛡️",
+      "kicking_all": "Cleaning house! Kicking all non-admins... ({0} members). Restart the bot to stop. 🧹"
     },
     "add": {
-      "desc": "اضافه کردن یه نفر جدید به گروه. ➕",
-      "warning": "> هشدار: اضافه کردن شماره‌های ناشناخته ممکنه ربات رو بن کنه. مواظب باش!",
-      "not_admin": "ادمین نیستم، نمی‌تونم کسی رو اضافه کنم! 😅",
-      "invalid_number": "این شماره درست نیست. مثال: add 989123456789",
-      "failed": "نتونستم مستقیم اضافه کنم، لینک دعوت فرستادم بجاش. 📩"
+      "desc": "Add someone new to the group. ➕",
+      "warning": "> Heads up: Adding unknown numbers might get the bot banned. Stay safe!",
+      "not_admin": "I can't add anyone if I'm not an admin! 😅",
+      "invalid_number": "That number doesn't look right. Example: add 91987654321",
+      "failed": "Couldn't add them directly, so I sent an invite link instead. 📩"
     },
     "promote": {
-      "desc": "تاج رو بذار رو سرش (ارتقا به مدیر). 👑",
-      "not_admin": "ادمین نیستم، نمی‌تونم ارتقا بدم. 😅",
-      "mention_user": "کی قراره تاج بذاره؟ منشنش کن یا ریپلای کن. 👑",
-      "already_admin": "از قبل شاه/ملکه‌ست! (قبلاً ادمینه) ✨"
+      "desc": "Give someone the crown (Admin). 👑",
+      "not_admin": "I'm not an admin, so I can't promote anyone. 😅",
+      "mention_user": "Who's getting the promotion? Mention them or reply. 👑",
+      "already_admin": "They're already a king/queen! (Already an admin) ✨"
     },
     "demote": {
-      "desc": "تاج رو از سرش بردار (برکناری). 📉",
-      "not_admin": "ادمین نیستم، نمی‌تونم برکنار کنم. 😅",
-      "mention_user": "کی میخوای تاجشو بگیرم؟ منشنش کن یا ریپلای کن. 📉",
-      "not_admin_user": "صبر کن، اصلاً ادمین نیست که! 😂"
+      "desc": "Take away the crown (Admin). 📉",
+      "not_admin": "I'm not an admin, so I can't demote anyone. 😅",
+      "mention_user": "Who's losing the crown? Mention them or reply. 📉",
+      "not_admin_user": "Wait, they aren't even an admin! 😂"
     },
     "invite": {
-      "desc": "گرفتن لینک دعوت گروه. 🔗",
-      "not_admin": "ادمین نیستم، نمی‌تونم لینک بسازم. 😅",
-      "success": "لینک دعوت گروه: 🔗\n{0}"
+      "desc": "Get the group's invite link. 🔗",
+      "not_admin": "I'm not an admin, so I can't generate an invite link. 😅",
+      "success": "Here’s the group invite link: 🔗\n{0}"
     },
     "mute": {
-      "desc": "فقط مدیران می‌تونن پیام بدن. 🤐",
-      "not_admin": "ادمین نیستم، نمی‌تونم تنظیمات گروه رو عوض کنم. 😅",
-      "mute": "گروه به مدت {0} دقیقه سکوت شد. 🤫"
+      "desc": "Only admins can send messages. 🤐",
+      "not_admin": "I'm not an admin, so I can't change group settings. 😅",
+      "mute": "Group muted for {0} minutes. 🤫"
     },
     "unmute": {
-      "desc": "همه دوباره می‌تونن پیام بدن. 🔓",
-      "not_admin": "ادمین نیستم، نمی‌تونم تنظیمات گروه رو عوض کنم. 😅"
+      "desc": "Everyone can send messages again. 🔓",
+      "not_admin": "I'm not an admin, so I can't change group settings. 😅"
     },
     "join": {
-      "desc": "جوین شدن به گروه با لینک دعوت",
-      "invalid_link": "لطفاً یه لینک دعوت معتبر واتساپ بده.",
-      "group_full": "گروه پرئه و جا نداره.",
-      "success": "با موفقیت به گروه جوین شد.",
-      "request_sent": "درخواست جوین ارسال شد."
+      "desc": "Join groups with invite link",
+      "invalid_link": "Please provide a valid WhatsApp group invite link.",
+      "group_full": "The group is full and cannot accept new members.",
+      "success": "Successfully joined the group.",
+      "request_sent": "Join request sent."
     },
     "revoke": {
-      "desc": "ریست کردن لینک دعوت گروه. 🔄",
-      "not_admin": "ادمین نیستم، نمی‌تونم لینک رو باطل کنم. 😅"
+      "desc": "Reset the group invite link. 🔄",
+      "not_admin": "I'm not an admin, so I can't revoke the invite link. 😅"
     },
     "group_info": {
-      "desc": "نمایش اطلاعات لینک دعوت گروه",
-      "ginfo_usage": "*استفاده:* ginfo <لینک_گروه>",
-      "invalid_link": "لطفاً یه لینک دعوت معتبر واتساپ بده.",
-      "details": "*نام:* {0}\n*آیدی گروه:* {1}@g.us\n*مالک:* {2}\n*اعضا:* {3}\n*ساخته شده:* {4}\n*توضیحات:* {5}"
+      "desc": "Shows group invite link info",
+      "ginfo_usage": "*Usage:* ginfo <group_link>",
+      "invalid_link": "Please provide a valid WhatsApp invite link.",
+      "details": "*Name:* {0}\n*Group ID:* {1}@g.us\n*Owner:* {2}\n*Members:* {3}\n*Created on:* {4}\n*Description:* {5}"
     },
     "common_members": {
-      "desc": "نمایش یا اخراج اعضای مشترک بین دو یا چند گروه",
-      "found": "هیچ عضو مشترکی پیدا نشد.",
-      "common_usage": "*مثال*\ncommon jid\ncommon jid kick\ncommon jid1 jid2\ncommon jid1,jid2 kick\ncommon jid1 jid2 jid3...jid999\n\ncommon jid1 jid2 jid3 any\nkick - حذف فقط از گروهی که دستور زدی\nkickall - حذف از همه آیدی‌ها\nany - شامل اعضای مشترک دو گروه یا بیشتر\nskip - اجتناب از حذف همه، مثال skip برای یک گروه یا skip jid1,jid2,jid3.",
-      "ginfo_usage": "*مثال : info لینک_دعوت_گروه*"
+      "desc": "Show or kick common members in two or more groups",
+      "found": "Found 0 common members.",
+      "common_usage": "*Example*\ncommon jid\ncommon jid kick\ncommon jid1 jid2\ncommon jid1,jid2 kick\ncommon jid1 jid2 jid3...jid999\n\ncommon jid1 jid2 jid3 any\nkick - to remove only group u command\nkickall - to remove from all jids\nany - to include two or more common group members\nskip - to avoid removing from all, example skip to avoid from one group or skip jid1,jid2,jid3 to skip from.",
+      "ginfo_usage": "*Example : info group_invte_link*"
     },
     "insta": {
-      "usage": "مثال: insta <لینک اینستاگرام>",
-      "not_found": "پیدا نشد. 🔍",
-      "desc": "دانلود پست‌ها، ریلز و ویدیوهای اینستاگرام. 📸"
+      "usage": "Example: insta <Instagram URL>",
+      "not_found": "Couldn't find it. 🔍",
+      "desc": "Grab Instagram posts, reels, and videos. 📸"
     },
     "ison": {
-      "usage": "مثال: ison <شماره موبایل>",
-      "not_exist": "`*توی واتساپ نیست* ({0})\n`",
-      "exist": "\n*توی واتساپ هست* ({0})\n",
-      "privacy": "*تنظیمات حریم خصوصی روشن* ({0})\n",
-      "desc": "بررسی اینکه شماره‌ای توی واتساپ ثبت شده یا نه."
+      "usage": "Example: ison <phone number>",
+      "not_exist": "`*Not Exist on Whatsapp* ({0})\n`",
+      "exist": "\n*Exist on Whatsapp* ({0})\n",
+      "privacy": "*Privacy Settings on* ({0})\n",
+      "desc": "Check if a phone number is registered on WhatsApp."
     },
     "lydia": {
-      "usage": "استفاده: lydia on | off\nریپلای یا منشن کن تا جادو شروع بشه! ✨",
-      "activated": "لیدیا فعال شد! بیا حرف بزنیم. 🤖",
-      "deactivated": "لیدیا رفت استراحت. غیرفعال شد. 💤",
-      "note": "هی! باید روی یه پیام ریپلای کنی. 💬",
-      "desc": "با من حرف بزن! فعال یا غیرفعال‌سازی چت‌بات. 🤖"
+      "usage": "Usage: lydia on | off\nReply or mention me to start the magic! ✨",
+      "activated": "Lydia is now active! Let's talk. 🤖",
+      "deactivated": "Lydia is taking a break. Deactivated. 💤",
+      "note": "Hey! You need to reply to a message first. 💬",
+      "desc": "Talk to me! Enable or disable the AI chatbot. 🤖"
     },
     "rotate": {
-      "usage": "مثال: rotate right|left|flip (ریپلای روی ویدیو).",
-      "not_found": "اوه! روی ویدیو ریپلای کن و بگو: right، left، یا flip. 🔄",
-      "desc": "چرخاندن یا برعکس کردن ویدیوها! 🔄",
-      "convert": "دارم کار میکنم... 🔄"
+      "usage": "Example: rotate right|left|flip (reply to a video).",
+      "not_found": "Whoops! Reply to a video and choose: right, left, or flip. 🔄",
+      "desc": "Flip or rotate your videos easily! 🔄",
+      "convert": "Working on it... 🔄"
     },
     "mp3": {
-      "usage": "روی ویدیو یا صدا ریپلای کن تا MP3 بشه.",
-      "not_found": "لطفاً روی ویدیو یا پیام صوتی ریپلای کن.",
-      "desc": "تبدیل ویدیو به صدا یا کلیپ صوتی به ویس."
+      "usage": "Reply to a video or audio to convert it to MP3.",
+      "not_found": "Please reply to a video or audio message.",
+      "desc": "Convert a video to audio or an audio clip to a voice note."
     },
     "photo": {
-      "usage": "روی استیکر عکسی ریپلای کن تا عکس بشه.",
-      "desc": "تبدیل استیکر به عکس."
+      "usage": "Reply to a photo sticker to convert it to an image.",
+      "desc": "Convert a sticker into an image."
     },
     "reverse": {
-      "usage": "روی ویدیو یا صدا ریپلای کن تا برعکس پخش بشه.",
-      "not_found": "لطفاً روی ویدیو یا پیام صوتی ریپلای کن.",
-      "desc": "برعکس کردن پخش ویدیو یا صدا."
+      "usage": "Reply to a video or audio to reverse its playback.",
+      "not_found": "Please reply to a video or audio message.",
+      "desc": "Reverse the playback of a video or audio clip."
     },
     "cut": {
-      "usage": "مثال: cut 0;30 (شروع;مدت) (ریپلای روی ویدیو یا صدا).",
-      "not_found": "لطفاً روی ویدیو یا صدا ریپلای کن با مقادیر معتبر شروع و مدت (مثلاً 10;30).",
-      "desc": "برش بخشی از فایل صوتی یا ویدیویی."
+      "usage": "Example: cut 0;30 (start;duration) (reply to a video or audio).",
+      "not_found": "Please reply to a video or audio with valid start and duration values (e.g., 10;30).",
+      "desc": "Cut a segment from an audio or video file."
     },
     "trim": {
-      "usage": "مثال: trim 10;30 (ریپلای روی ویدیو).",
-      "not_found": "لطفاً روی ویدیو ریپلای کن با مقادیر معتبر شروع و مدت (مثلاً 60;30).",
-      "desc": "تریم ویدیو بین زمان‌های مشخص."
+      "usage": "Example: trim 10;30 (reply to a video).",
+      "not_found": "Please reply to a video with valid start and duration values (e.g., 60;30).",
+      "desc": "Trim a video between specified start and duration times."
     },
     "page": {
-      "usage": "مثال: page 1 (ریپلای روی عکس).",
-      "not_found": "لطفاً روی عکس ریپلای کن و شماره صفحه رو بنویس.",
-      "desc": "اضافه کردن عکس به عنوان صفحه PDF.",
-      "add": "صفحه {0} اضافه شد!"
+      "usage": "Example: page 1 (reply to an image).",
+      "not_found": "Please reply to an image with a numeric caption indicating the page number.",
+      "desc": "Add an image as a page to a PDF document.",
+      "add": "Page {0} added!"
     },
     "pdf": {
-      "usage": "مثال: pdf اسم (یه عنوان برای PDF بده).",
-      "not_found": "لطفاً یه عنوان برای PDF بده.",
-      "desc": "تبدیل عکس‌ها به PDF."
+      "usage": "Example: pdf note (provide a title for the PDF).",
+      "not_found": "Please provide a title for the PDF document.",
+      "desc": "Convert images to a PDF document."
     },
     "merge": {
-      "usage": "مثال: merge 1 (ریپلای با شماره ترتیب روی ویدیو).",
-      "not_found": "لطفاً روی ویدیو با شماره ترتیب معتبر ریپلای کن.",
-      "desc": "ادغام چند ویدیو در یکی.",
-      "merge": "_ادغام {0} ویدیو_",
-      "add": "_ویدیو {0} اضافه شد_"
+      "usage": "Example: merge 1 (reply with an order number to a video).",
+      "not_found": "Please reply to a video with a valid order number.",
+      "desc": "Merge multiple videos into one.",
+      "merge": "_Merging {0} videos_",
+      "add": "_Video {0} added_"
     },
     "compress": {
-      "usage": "روی ویدیو ریپلای کن تا فشرده بشه.",
-      "desc": "فشرده‌سازی فایل ویدیویی برای کاهش حجم."
+      "usage": "Reply to a video to compress it.",
+      "desc": "Compress a video file to reduce its size."
     },
     "bass": {
-      "usage": "مثال: bass 10 (ریپلای روی صدا یا ویدیو).",
-      "desc": "تغییر سطح بیس فایل صوتی."
+      "usage": "Example: bass 10 (reply to an audio or video).",
+      "desc": "Alter the bass levels of an audio file."
     },
     "treble": {
-      "usage": "مثال: treble 10 (ریپلای روی صدا یا ویدیو).",
-      "desc": "تغییر سطح تربل فایل صوتی."
+      "usage": "Example: treble 10 (reply to an audio or video).",
+      "desc": "Alter the treble levels of an audio file."
     },
     "histo": {
-      "usage": "روی صدا یا ویدیو ریپلای کن تا ویدیوی هیستوگرام بسازه.",
-      "desc": "تبدیل صدا به ویدیوی بصری هیستوگرام."
+      "usage": "Reply to an audio or video to generate a histogram video.",
+      "desc": "Convert audio to a visual video histogram."
     },
     "vector": {
-      "usage": "روی صدا یا ویدیو ریپلای کن تا ویدیوی وکتور بسازه.",
-      "desc": "تبدیل صدا به ویدیوی بصری وکتور."
+      "usage": "Reply to an audio or video to create a vector visualization video.",
+      "desc": "Convert audio to a vector visualization video."
     },
     "crop": {
-      "usage": "مثال: crop 512,512,0,512 (ریپلای روی ویدیو).",
-      "not_found": "لطفاً روی ویدیو ریپلای کن با ابعاد برش معتبر: عرض_خروجی,ارتفاع_خروجی,x,y.",
-      "desc": "برش ویدیو به ابعاد مشخص.",
-      "xcrop": "عرض ویدیو: *{0}*، ارتفاع: *{1}*\nاندازه خروجی رو بین این دو انتخاب کن."
+      "usage": "Example: crop 512,512,0,512 (reply to a video).",
+      "not_found": "Please reply to a video with valid crop dimensions in the format: out_w,out_h,x,y.",
+      "desc": "Crop a video to the specified dimensions.",
+      "xcrop": "Video width: *{0}*, height: *{1}*\nChoose output size in between."
     },
     "low": {
-      "usage": "روی صدا یا ویدیو ریپلای کن تا زیرتر بشه.",
-      "desc": "تغییر زیر و بمی صدا به لحن پایین‌تر."
+      "usage": "Reply to an audio or video to lower the pitch.",
+      "desc": "Alter the audio pitch to a lower tone."
     },
     "pitch": {
-      "usage": "روی صدا یا ویدیو ریپلای کن تا زیر و بمی عوض بشه.",
-      "not_found": "لطفاً روی پیام صوتی یا ویدیویی ریپلای کن.",
-      "desc": "تنظیم زیر و بمی صدا."
+      "usage": "Reply to an audio or video to adjust the pitch.",
+      "not_found": "Please reply to an audio or video message.",
+      "desc": "Adjust the pitch of an audio file."
     },
     "avec": {
-      "usage": "روی صدا یا ویدیو ریپلای کن تا به فرمت ویدیو تبدیل بشه.",
-      "not_found": "لطفاً روی پیام صوتی یا ویدیویی ریپلای کن.",
-      "desc": "تبدیل کلیپ صوتی به ویدیو."
+      "usage": "Reply to an audio or video to convert it into a video format.",
+      "not_found": "Please reply to an audio or video message.",
+      "desc": "Convert an audio clip into a video."
     },
     "avm": {
-      "usage": "هم صدا و هم ویدیو رو ریپلای کن تا ادغام بشن.",
-      "desc": "ادغام فایل‌های صوتی و ویدیویی در یکی.",
-      "audio_add": "_صدا اضافه شد!_",
-      "video_add": "_ویدیو اضافه شد!_"
+      "usage": "Reply with both audio and video to merge them.",
+      "desc": "Merge audio and video files into one.",
+      "audio_add": "_Audio added!_",
+      "video_add": "_Video added!_"
     },
     "black": {
-      "usage": "روی صدا یا ویدیو ریپلای کن تا ویدیو با پس‌زمینه مشکی بسازه.",
-      "desc": "تبدیل کلیپ صوتی به ویدیو با پس‌زمینه مشکی."
+      "usage": "Reply to an audio or video to generate a video with a black background.",
+      "desc": "Convert an audio clip into a video with a black background."
     },
     "mediafire": {
-      "usage": "مثال: mediafire <لینک Mediafire>",
-      "not_found": "فایل پیدا نشد. لینک رو دوباره چک کن! 🔍",
-      "desc": "دانلود فایل از Mediafire. 📂"
+      "usage": "Example: mediafire <Mediafire URL>",
+      "not_found": "File not found. check the link again! 🔍",
+      "desc": "Download files from Mediafire. 📂"
     },
     "mention": {
-      "usage": "مثال: mention on | off | get\n(ریپلای روی پیام برای هدف قرار دادن کاربر خاص.)",
-      "desc": "تنظیم و مدیریت قابلیت پاسخ خودکار به منشن.",
-      "not_activated": "پاسخ به منشن فعال نیست.",
-      "current_status": "منشن {0} هست. برای اطلاعات بیشتر: https://levanter.site/",
-      "activated": "پاسخ به منشن فعال شد.",
-      "deactivated": "پاسخ به منشن غیرفعال شد.",
-      "updated": "تنظیمات منشن آپدیت شد."
+      "usage": "Example: mention on | off | get\n(Reply to a message to target a specific user.)",
+      "desc": "Configure and manage the mention feature for automated replies.",
+      "not_activated": "Reply to mention not activated.",
+      "current_status": "Mention is {0}. For details, visit: https://levanter.site/",
+      "activated": "Reply-to mention activated.",
+      "deactivated": "Reply-to mention deactivated.",
+      "updated": "Mention settings updated."
     },
     "status": {
-      "usage": "استفاده: status on | off | no-dl | except-view <jid,...> | only-view <jid,...>",
-      "desc": "مدیریت خودکار مشاهده وضعیت‌های واتساپ."
+      "usage": "Usage: status on | off | no-dl | except-view <jid,...> | only-view <jid,...>",
+      "desc": "Automatically manage the viewing of WhatsApp statuses."
     },
     "call": {
-      "usage": "استفاده: call on | off",
-      "desc": "رد خودکار تماس‌های ورودی."
+      "usage": "Usage: call on | off",
+      "desc": "Automatically reject incoming calls."
     },
     "read": {
-      "usage": "استفاده: read on | off",
-      "desc": "فعال یا غیرفعال‌سازی سین خودکار پیام‌های ورودی."
+      "usage": "Usage: read on | off",
+      "desc": "Enable or disable auto-reading of incoming messages."
     },
     "online": {
-      "usage": "استفاده: online on | off",
-      "desc": "همیشه آنلاین نشون دادن اکانت."
+      "usage": "Usage: online on | off",
+      "desc": "Keep your account status always online."
     },
     "movie": {
-      "usage": "مثال: movie <اسم فیلم>",
-      "not_found": "فیلم پیدا نشد. اسم رو دوباره چک کن.",
-      "desc": "دریافت اطلاعات کامل فیلم از OMDB API."
+      "usage": "Example: movie <movie title>",
+      "not_found": "Movie not found. Please verify the title and try again.",
+      "desc": "Fetch detailed movie information, including the full plot, from the OMDB API."
     },
     "msgs": {
-      "desc": "نمایش تعداد پیام‌های هر عضو در گروه، شامل مجموع فردی و آخرین بازدید.",
-      "msg_init": "\n*شماره :* {0}\n*نام :* {1}\n*کل پیام‌ها :* {2}\n",
-      "msg_last": "*آخرین بازدید :* {0} پیش\n",
-      "no_activity": "هنوز فعالیتی ثبت نشده."
+      "desc": "Display the group's message count for each member, including individual totals and last seen duration.",
+      "msg_init": "\n*Number :* {0}\n*Name :* {1}\n*Total Msgs :* {2}\n",
+      "msg_last": "*lastSeen :* {0} ago\n",
+      "no_activity": "No activity recorded yet."
     },
     "reset": {
-      "usage": "مثال: reset all یا reset <ریپلای/منشن>",
-      "desc": "ریست شمارنده پیام‌ها برای کل گروه یا یک عضو خاص.",
-      "reset_all": "شمارنده پیام همه پاک شد",
-      "reset_one": "_شمارنده پیام‌های @{0} پاک شد._"
+      "usage": "Example: reset all OR reset <reply/mention>",
+      "desc": "Reset the message count for either the entire group or a specific member.",
+      "reset_all": "Everyone's message counts deleted",
+      "reset_one": "_@{0} messages counts deleted._"
     },
     "inactive": {
-      "usage": "> مثال‌ها:\n- inactive day 10\n- inactive day 10 kick\n- inactive total 100\n- inactive total 100 kick\n- inactive day 7 total 150\n- inactive day 7 total 150 kick\n\nاگه kick نزنی، فقط لیست میشه",
-      "desc": "شناسایی یا حذف اعضای غیرفعال بر اساس تعداد پیام یا مدت غیبت. اگه 'kick' اضافه کنی حذف میکنه.",
-      "inactives": "_کل اعضای غیرفعال: {0}_",
-      "removing": "_حذف {0} عضو غیرفعال تا ۷ ثانیه دیگه_"
+      "usage": "> Examples:\n-inactive day 10\n- inactive day 10 kick\n- inactive total 100\n- inactive total 100 kick\n- inactive day 7 total 150\n- inactive day 7 total 150 kick\n\nif kick not mentioned, Just list",
+      "desc": "Identify or remove inactive members based on message count or inactivity duration. Append 'kick' to remove members.",
+      "inactives": "_Total inactives are : {0}_",
+      "removing": "_Removing {0} inactive members in 7 seconds_"
     },
     "weather": {
-      "desc": "اطلاعات آب و هوا",
-      "usage": "*مثال : weather tehran*",
-      "not_found": "_{0} پیدا نشد_",
-      "report": "*نام :* {0}\n*کشور :* {1}\n*وضعیت :* {2}\n*دما :* {3}°\n*احساس :* {4}°\n*رطوبت :* {5}%\n*دید :* {6}m\n*باد :* {7}m/s {8}\n*طلوع :* {9}\n*غروب :* {10}"
+      "desc": "weather info",
+      "usage": "*Example : weather delhi*",
+      "not_found": "_{0} not found_",
+      "report": "*Name :* {0}\n*Country :* {1}\n*Weather :* {2}\n*Temp :* {3}°\n*Feels Like :* {4}°\n*Humidity :* {5}%\n*Visibility  :* {6}m\n*Wind* : {7}m/s {8}\n*Sunrise :* {9}\n*Sunset :* {10}"
     },
     "y2mate": {
-      "ytv_desc": "دانلود ویدیو یوتیوب",
-      "ytv_usage": "_مثال: ytv url_",
-      "yta_desc": "دانلود صوت یوتیوب",
-      "yta_usage": "_مثال: yta darari/yt url_",
-      "invalid_link": "*یه لینک معتبر یوتیوب بده!*",
-      "no_video": "*ویدیویی پیدا نشد*",
-      "no_audio": "_صوت پیدا نشد._"
+      "ytv_desc": "Download YouTube video",
+      "ytv_usage": "_Example: ytv url_",
+      "yta_desc": "Download YouTube audio",
+      "yta_usage": "_Example: yta darari/yt url_",
+      "invalid_link": "*Provide a valid YouTube link!*",
+      "no_video": "*No video found*",
+      "no_audio": "_Audio not found._"
     },
     "amute": {
-      "usage": "استفاده: amute <ساعت> <دقیقه>\n- amute on | off\n- amute info\n\nریپلای با متن برای تنظیم پیام سکوت",
-      "desc": "زمان‌بندی سکوت خودکار گروه با پیام سفارشی اختیاری.",
-      "not_found": "تنظیمات سکوت خودکار پیدا نشد.",
-      "already_disabled": "سکوت خودکار از قبل غیرفعاله.",
-      "enabled": "سکوت خودکار فعال شد.",
-      "disabled": "سکوت خودکار غیرفعال شد.",
-      "invalid_format": "> مثال:\n- amute 6 0\n- amute on | off\n- amute info\n\nریپلای با متن برای تنظیم پیام سکوت.",
-      "scheduled": "گروه ساعت {0} سکوت میشه\n*پیام :* {1}",
-      "info": "ساعت: {0}\nدقیقه: {1}\nزمان: {2}\nسکوت: {3}\nپیام: {4}"
+      "usage": "Usage: amute <hour> <min>\n- amute on | off\n- amute info\n\nReply with text to set a mute message",
+      "desc": "Schedule automatic group muting at a specified time with an optional custom message.",
+      "not_found": "AutoMute settings not found.",
+      "already_disabled": "AutoMute already disabled.",
+      "enabled": "AutoMute Enabled.",
+      "disabled": "AutoMute Disabled.",
+      "invalid_format": "> Example:\n- amute 6 0\n- amute on | off\n- amute info\n\nReply with text to set a mute message.",
+      "scheduled": "Group will mute at {0}\n*message :* {1}",
+      "info": "Hour: {0}\nMinute: {1}\nTime: {2}\nMute: {3}\nMessage: {4}"
     },
     "aunmute": {
-      "usage": "استفاده: aunmute <ساعت> <دقیقه>\n- aunmute on | off\n- aunmute info\nریپلای با متن برای تنظیم پیام باز کردن سکوت",
-      "desc": "زمان‌بندی باز کردن خودکار سکوت گروه با پیام سفارشی اختیاری.",
-      "not_found": "تنظیمات باز کردن سکوت خودکار پیدا نشد.",
-      "already_disabled": "باز کردن سکوت خودکار از قبل غیرفعاله.",
-      "enabled": "باز کردن سکوت خودکار فعال شد.",
-      "disabled": "باز کردن سکوت خودکار غیرفعال شد.",
-      "invalid_format": "> مثال:\n- aunmute 16 30\n- aunmute on | off\n- aunmute info\n\nریپلای با متن برای تنظیم پیام باز کردن سکوت.",
-      "scheduled": "سکوت گروه ساعت {0} باز میشه\n*پیام :* {1}",
-      "info": "ساعت: {0}\nدقیقه: {1}\nزمان: {2}\nسکوت: {3}\nپیام: {4}"
+      "usage": "Usage: aunmute <hour> <min>\n- aunmute on | off\n- aunmute info\nReply with text to set an unmute message",
+      "desc": "Schedule automatic group unmuting at a specified time with an optional custom message.",
+      "not_found": "AutoUnMute settings not found.",
+      "already_disabled": "AutoUnMute already disabled.",
+      "enabled": "AutoUnMute Enabled.",
+      "disabled": "AutoUnMute Disabled.",
+      "invalid_format": "> Example:\n- aunmute 16 30\n- aunmute on | off\n- aunmute info\n\nReply with text to set an unmute message.",
+      "scheduled": "Group will unmute at {0}\n*message :* {1}",
+      "info": "Hour: {0}\nMinute: {1}\nTime: {2}\nMute: {3}\nMessage: {4}"
     },
     "zushi": {
-      "usage": "> مثال:\n- zushi ping, sticker\n- برای ست کردن همه دستورات، اول 'list' بزن و بعد با پیام کپی‌شده ریپلای کن (مثلاً zushi پیام_کپی‌شده).",
-      "desc": "اجازه بدی فقط دستورات خاصی توسط بقیه توی چت استفاده بشه.",
-      "already_set": "{0} از قبل تنظیم شده.",
-      "allowed": "*دستورات مجاز برای* @{0}\n{1}",
-      "no_input": "⚠️ لطفاً اسم دستورات رو بنویس\n\n📝 مثال‌ها:\n  • .zushi song video sticker\n  • .zushi img trt translate\n\n💡 چند دستور با فاصله از هم جدا کن",
-      "duplicates": "❌ دستورات از قبل مجاز بودن: {0}\n\n📋 کل دستورات مجاز ({1}):\n{2}\n\n💡 از .yami برای دیدن دستورات مجاز استفاده کن\n💡 از .ope برای حذف استفاده کن",
-      "invalid": "⚠️ هیچ دستور معتبری پیدا نشد\n\nرد شده‌ها: {0}\n\n💡 از .help برای دیدن دستورات موجود استفاده کن",
-      "error": "❌ خطا: {0}",
-      "success": "✅ با موفقیت {0} دستور اضافه شد:\n{2}\n\n📊 کل مجاز: {0} دستور برای @{3}\n\n💡 کاربرها الان می‌تونن از این دستورات استفاده کنن"
+      "usage": "> Example:\n- zushi ping, sticker\n- To set all commands, type 'list' and then reply with the copied message (e.g., zushi copied_message).",
+      "desc": "Allows you to enable specific commands for use by others in the chat.",
+      "already_set": "{0} is already configured.",
+      "allowed": "*allowed commands for* @{0}\n{1}",
+      "no_input": "⚠️ Please provide command names\n\n📝 Examples:\n  • .zushi song video sticker\n  • .zushi img trt translate\n\n💡 Add multiple commands separated by spaces",
+      "duplicates": "❌ Commands already allowed: {0}\n\n📋 Current allowed commands ({1} total):\n{2}\n\n💡 Use .yami to see all allowed commands\n💡 Use .ope to remove commands",
+      "invalid": "⚠️ No valid commands found\n\nSkipped invalid: {0}\n\n💡 Use .help to see available commands",
+      "error": "❌ Error: {0}",
+      "success": "✅ Successfully added {0} command{1}:\n{2}\n\n📊 Total allowed: {0} command{1} for @{3}\n\n💡 Users can now use these commands"
     },
     "yami": {
-      "usage": "ساده بزن: yami",
-      "desc": "لیست دستوراتی که الان توی این چت مجازن رو نشون میده.",
-      "not_set": "هنوز دستور مجازی تنظیم نشده.",
-      "no_commands": "📋 دستور مجازی پیدا نشد\n\n💡 از .zushi برای اضافه کردن دستور استفاده کن\n📝 مثال: .zushi song video sticker",
-      "list": "📋 دستورات مجاز برای @{0}:\n\n{1}\n\n📊 کل: {2} دستور\n\n💡 حذف با: .ope <اسامی دستورات>\n💡 حذف همه: .ope all"
+      "usage": "Simply use: yami",
+      "desc": "Displays the list of commands that are currently allowed in this chat.",
+      "not_set": "No allowed commands have been set yet.",
+      "no_commands": "📋 No allowed commands found\n\n💡 Use .zushi to add commands\n📝 Example: .zushi song video sticker",
+      "list": "📋 Allowed commands for @{0}:\n\n{1}\n\n📊 Total: {2} command{3}\n\n💡 Remove with: .ope <command names>\n💡 Remove all: .ope all"
     },
     "ope": {
-      "usage": "مثال: ope ping, sticker یا ope all",
-      "desc": "حذف یا غیرفعال‌سازی دستورات مجاز مشخص‌شده.",
-      "not_found": "دستور مجازی برای {0} پیدا نشد.",
-      "all_removed": "همه دستورات مجاز حذف شدن.",
-      "removed": "*دستورات حذف‌شده برای* @{0}\n{1}",
-      "no_input": "⚠️ لطفاً اسم دستوراتی که میخوای حذف بشه رو بنویس\n\n📝 مثال‌ها:\n  • .ope song video\n  • .ope all (حذف همه)\n\n💡 از .yami برای دیدن دستورات مجاز استفاده کن",
-      "not_found_list": "❌ دستور پیدا نشد: {1}{2}\n\n💡 از .yami برای دیدن همه دستورات مجاز استفاده کن\n📝 مثال: .ope song video",
-      "error": "❌ خطا: {0}",
-      "no_commands": "⚠️ دستوری برای این کاربر/گروه پیدا نشد\n\n💡 اول از .zushi برای اضافه کردن دستور استفاده کن",
-      "all_success": "✅ همه دستورات حذف شدن\n\n💡 از .zushi برای اضافه کردن دستور جدید استفاده کن",
-      "success": "✅ {0} دستور حذف شد:\n{2}\n\n📊 برای: @{3}\n\n💡 از .yami برای دیدن دستورات باقی‌مانده استفاده کن\n💡 از .ope all برای حذف همه استفاده کن"
+      "usage": "Example: ope ping, sticker OR ope all",
+      "desc": "Deletes or unsets the specified allowed commands.",
+      "not_found": "No allowed commands found for {0}.",
+      "all_removed": "All allowed commands have been removed.",
+      "removed": "*removed commands for* @{0}\n{1}",
+      "no_input": "⚠️ Please provide command names to remove\n\n📝 Examples:\n  • .ope song video\n  • .ope all (removes everything)\n\n💡 Use .yami to see allowed commands",
+      "not_found_list": "❌ Command{0} not found: {1}{2}\n\n💡 Use .yami to see all allowed commands\n📝 Example: .ope song video",
+      "error": "❌ Error: {0}",
+      "no_commands": "⚠️ No commands found for this user/group\n\n💡 Use .zushi to add commands first",
+      "all_success": "✅ All commands removed\n\n💡 Use .zushi to add new commands",
+      "success": "✅ Removed {0} command{1}:\n{2}\n\n📊 For: @{3}\n\n💡 Use .yami to see remaining commands\n💡 Use .ope all to remove everything"
     },
     "pdm": {
-      "usage": "استفاده: pdm on | off",
-      "desc": "فعال یا غیرفعال‌سازی اعلان خودکار ارتقا/برکناری در گروه.",
-      "not_found": "لطفاً 'on' یا 'off' مشخص کن. مثال: pdm on",
-      "activated": "اعلان ارتقا/برکناری فعال شد.",
-      "deactivated": "اعلان ارتقا/برکناری غیرفعال شد."
+      "usage": "Usage: pdm on | off",
+      "desc": "Enable or disable automatic notifications for promote/demote events in the group.",
+      "not_found": "Please specify 'on' or 'off'. For example: pdm on",
+      "activated": "Promote/demote alert activated.",
+      "deactivated": "Promote/demote alert deactivated."
     },
     "ping": {
-      "desc": "بررسی سرعت پاسخ ربات (تأخیر).",
-      "ping_sent": "پینگ!",
-      "pong": "پنگ! زمان پاسخ: {0} میلی‌ثانیه"
+      "desc": "Check the bot's response time (latency).",
+      "ping_sent": "Ping!",
+      "pong": "Pong! Response time: {0} ms"
     },
     "pinterest": {
-      "usage": "مثال: pinterest <لینک Pinterest>",
-      "not_found": "رسانه‌ای پیدا نشد. لینک رو چک کن! 🔍",
-      "desc": "دانلود ویدیو یا عکس از Pinterest. 📌"
+      "usage": "Example: pinterest <Pinterest URL>",
+      "not_found": "No media found. Check the link! 🔍",
+      "desc": "Download Pinterest videos or images. 📌"
     },
     "plugin": {
-      "usage": "> مثال:\n- plugin <لینک Gist>\n- plugin list",
-      "desc": "نصب پلاگین‌های خارجی با لینک Gist حاوی کد پلاگین، یا نمایش همه پلاگین‌های نصب‌شده.",
-      "invalid": "لطفاً یه لینک یا اسم پلاگین معتبر بده.",
-      "not_installed": "پلاگینی نصب نیست.",
-      "installed": "پلاگین‌های جدید نصب شده: {0}"
+      "usage": "> Example:\n- plugin <Gist URL>\n- plugin list",
+      "desc": "Install external plugins by providing a Gist URL containing the plugin code, or list all installed plugins.",
+      "invalid": "Please provide a valid plugin URL or plugin name.",
+      "not_installed": "No plugins are currently installed.",
+      "installed": "Newly installed plugins: {0}"
     },
     "remove": {
-      "usage": "> مثال:\n- remove <اسم_پلاگین>\n- remove all",
-      "desc": "حذف پلاگین‌های خارجی با اسم پلاگین یا حذف همه.",
-      "not_found": "پلاگین *{0}* پیدا نشد.",
-      "removed": "پلاگین‌ها با موفقیت حذف شدن."
+      "usage": "> Example:\n- remove <plugin_name>\n- remove all",
+      "desc": "Delete external plugins by specifying the plugin name or remove all installed plugins.",
+      "not_found": "Plugin *{0}* not found.",
+      "removed": "Plugins have been successfully removed."
     },
     "reboot": {
-      "desc": "ریستارت ربات با PM2.",
-      "starting": "در حال ریستارت..."
+      "desc": "Restart the bot instance using PM2.",
+      "starting": "Restarting..."
     },
     "fullpp": {
-      "usage": "مثال: fullpp (ریپلای روی عکس)",
-      "desc": "ست کردن عکس پروفایل تمام‌صفحه.",
-      "updated": "عکس پروفایل آپدیت شد."
+      "usage": "Example: fullpp (reply to an image)",
+      "desc": "Set full-size profile picture.",
+      "updated": "Profile picture updated."
     },
     "jid": {
-      "desc": "آیدی (JID) کاربر یا چت رو برمیگردونه. منشن، ریپلای، یا چت فعلی رو بررسی میکنه."
+      "desc": "Returns the JID of a user or chat. It checks for a mentioned user, a reply message, or defaults to the current chat's JID."
     },
     "left": {
-      "desc": "خارج شدن از گروه فعلی. اگه متن اضافه بدی، قبل از خروج ارسال میشه."
+      "desc": "Leaves the current group. If additional text is provided, it will be sent before leaving."
     },
     "block": {
-      "usage": "مثال: block (ریپلای یا منشن کاربر)",
-      "desc": "بلاک کردن کاربر مشخص‌شده.",
-      "status": "بلاک شد"
+      "usage": "Example: block (reply to or mention a user)",
+      "desc": "Blocks the specified user.",
+      "status": "Blocked"
     },
     "unblock": {
-      "usage": "مثال: unblock (ریپلای یا منشن کاربر)",
-      "desc": "آنبلاک کردن کاربر مشخص‌شده.",
-      "status": "_آنبلاک شد_"
+      "usage": "Example: unblock (reply to or mention a user)",
+      "desc": "Unblocks the specified user.",
+      "status": "_Unblocked_"
     },
     "pp": {
-      "usage": "مثال: pp (ریپلای روی عکس)",
-      "desc": "آپدیت عکس پروفایل با عکسی که روش ریپلای کردی."
+      "usage": "Example: pp (reply to an image)",
+      "desc": "Updates your profile picture using the image from the replied message."
     },
     "whois": {
-      "number": "*شماره :* {0}",
-      "name": "*نام :* {0}",
-      "about": "*درباره :* {0}",
-      "setAt": "*تنظیم‌شده در :* {0}",
-      "owner": "*مالک :* {0}",
-      "members": "*اعضا :* {0}",
-      "description": "*توضیحات :* {0}",
-      "created": "*ساخته‌شده :* {0}",
-      "usage": "مثال: whois <jid یا شناسه کاربر>",
-      "desc": "نمایش عکس پروفایل و اطلاعات اضافی (مثلاً درباره، وضعیت) کاربر یا گروه."
+      "number": "*Number :* {0}",
+      "name": "*Name :* {0}",
+      "about": "*About :* {0}",
+      "setAt": "*setAt :* {0}",
+      "owner": "*Owner :* {0}",
+      "members": "*Members* : {0}",
+      "description": "*desc* : {0}",
+      "created": "*Created* : {0}",
+      "usage": "Example: whois <jid or user identifier>",
+      "desc": "Displays the profile picture and additional information (e.g., about, status) of a user or group."
     },
     "gjid": {
-      "desc": "لیست همه آیدی‌های گروه‌ها با اسمشون.",
+      "desc": "Lists all group JIDs along with their group names.",
       "item": "*{0}. {1}*\n{2}\n"
     },
     "qr": {
-      "usage": "مثال: qr متن یا ریپلای روی عکس QR با qr",
-      "desc": "ساخت QR کد از متن یا خواندن از عکس! 📲"
+      "usage": "Example: qr text OR reply to a QR image with qr",
+      "desc": "Create a QR code from text or read one from an image! 📲"
     },
     "screenshot": {
-      "usage": "مثال: screenshot levanter.site",
-      "desc": "اسکرین‌شات از هر وب‌سایتی! 📸"
+      "usage": "Example: screenshot levanter.site",
+      "desc": "Take a screenshot of any website! 📸"
     },
     "reddit": {
-      "usage": "مثال: reddit <لینک>",
-      "desc": "دانلود ویدیو از پست Reddit با لینک.",
-      "error": "ویدیویی برای این لینک پیدا نشد."
+      "usage": "Example: reddit <URL>",
+      "desc": "Downloads a video from the specified Reddit post using the provided URL.",
+      "error": "No video found for the given URL."
     },
     "rmbg": {
-      "usage": "مثال: rmbg (ریپلای روی عکس)",
-      "desc": "حذف پس‌زمینه عکس با API remove.bg",
-      "key": "برای استفاده از این دستور، توی remove.bg ثبت‌نام کن، اکانتت رو تأیید کن، کلید API رو کپی کن و با .setvar RMBG_KEY:کلیدت ست کن. ثبت‌نام: https://accounts.kaleido.ai/users/sign_up | کلید API: https://www.remove.bg/dashboard#api-key",
-      "error": "کلید API یا عکس نیست. لطفاً کلید رو ست کن و روی عکس ریپلای کن."
+      "usage": "Example: rmbg (reply to an image)",
+      "desc": "Removes the background from the replied image using the remove.bg API",
+      "key": "To use this command, ensure you have signed up at remove.bg, verified your account, copied your API key, and set it using .setvar RMBG_KEY:<your_api_key> (e.g., .setvar RMBG_KEY:GWQ6jVy9MBpfYF9SnyG8jz8P). SIGNUP: https://accounts.kaleido.ai/users/sign_up | API KEY: https://www.remove.bg/dashboard#api-key",
+      "error": "Missing API key or image. Please set your API key and reply to an image."
     },
     "setschedule": {
-      "usage": "> *مثال:*\n- setschedule jid,دقیقه-ساعت-روز-ماه (فرمت ۲۴ ساعته، روز و ماه اختیاری)\n- setschedule فردا ساعت ۱۰ صبح (پشتیبانی از زبان طبیعی)\n- setschedule هر روز ساعت ۱۰ صبح (تکراری)\n- setschedule 0-10 (پیش‌فرض یک‌بار برای چت فعلی)",
-      "desc": "زمان‌بندی پیام با زبان طبیعی (مثلاً 'فردا ساعت ۱۰ صبح') یا فرمت کرون. پیش‌فرض یک‌بار برای چت فعلی.",
-      "invalid": "فرمت زمان‌بندی یا زمان نامعتبره. لطفاً از مثال‌ها استفاده کن.",
-      "no_reply": "لطفاً روی پیامی که میخوای زمان‌بندی بشه ریپلای کن.",
-      "scheduled": "_با موفقیت زمان‌بندی شد برای ارسال در_ *{0}* _در_ @{1}."
+      "usage": "> *Example :*\n- setschedule jid,min-hour-day-month (in 24 hour format, day and month optional)\n- setschedule tomorrow at 10am (Natural Language Support)\n- setschedule every day at 10am (Repeating)\n- setschedule 0-10 (Defaults to 'once' for current chat)",
+      "desc": "Schedule a message using natural language (e.g., 'tomorrow at 10am') or cron-like format. Defaults to 'once' for the current chat.",
+      "invalid": "Invalid schedule format or time. Please follow one of the examples provided.",
+      "no_reply": "Please reply to the message that you want to schedule for sending.",
+      "scheduled": "_Successfully scheduled to send at_ *{0}* _in_ @{1}."
     },
     "getschedule": {
-      "desc": "دریافت همه پیام‌های زمان‌بندی‌شده برای چت مشخص‌شده.",
-      "not_found": "پیام زمان‌بندی‌شده‌ای نیست.",
-      "time": "زمان : {0}"
+      "desc": "Retrieve all scheduled messages for the specified chat.",
+      "not_found": "There are no scheduled messages.",
+      "time": "Time : {0}"
     },
     "delschedule": {
-      "usage": "> مثال:\n- delschedule 9198765431@s.whatsapp.net, 8-8-10-10\n- delschedule 9198765431@s.whatsapp.net\n- delschedule all",
-      "desc": "حذف پیام زمان‌بندی‌شده با مشخص کردن آیدی و زمان، یا حذف همه.",
-      "invalid": "فرمت نامعتبر. لطفاً از مثال‌ها استفاده کن.",
-      "not_found": "زمان‌بندی پیدا نشد.",
-      "deleted": "_زمان‌بندی حذف شد._"
+      "usage": "> Example:\n- delschedule 9198765431@s.whatsapp.net, 8-8-10-10\n- delschedule 9198765431@s.whatsapp.net\n- delschedule all",
+      "desc": "Delete a scheduled message by specifying the target JID and time, or remove all scheduled messages.",
+      "invalid": "Invalid format. Please follow one of the examples.",
+      "not_found": "Schedule not found.",
+      "deleted": "_Schedule deleted._"
     },
     "setstatus": {
-      "usage": "مثال: setstatus jid,jid,jid,... یا setstatus contact",
-      "desc": "ست کردن وضعیت واتساپ برای مخاطبین خاص یا مخاطبین واردشده. روی پیام (متن، عکس یا ویدیو) ریپلای کن.",
-      "reply_required": "لطفاً روی پیام ریپلای کن تا وضعیت بشه.",
-      "sent": "_وضعیت به {0} مخاطب ارسال شد._"
+      "usage": "Example: setstatus jid,jid,jid,... OR setstatus contact",
+      "desc": "Set a WhatsApp status for specific contacts or for imported contacts. Reply to a message (text, image, or video) to set the status.",
+      "reply_required": "Please reply to a message to set the status.",
+      "sent": "_Status sent to {0} contacts._"
     },
     "scstatus": {
-      "usage": "مثال‌ها:\n- scstatus jid,jid,jid,...|دقیقه-ساعت-روز-ماه\n- scstatus contact|دقیقه-ساعت-روز-ماه\n- scstatus delete all|دقیقه-ساعت-روز-ماه\n- scstatus list",
-      "desc": "زمان‌بندی وضعیت واتساپ برای ارسال در زمان مشخص. از 'contact' برای مخاطبین واردشده یا آیدی‌های خاص استفاده کن.",
-      "reply_required": "لطفاً روی پیام ریپلای کن تا وضعیت زمان‌بندی بشه.",
-      "invalid": "فرمت نامعتبر. لطفاً از مثال‌ها استفاده کن.",
-      "scheduled": "_با موفقیت زمان‌بندی شد برای ارسال در_ {0}.",
-      "list": "لیست وضعیت‌های زمان‌بندی‌شده:",
-      "deleted": "زمان‌بندی حذف شد."
+      "usage": "Examples:\n- scstatus jid,jid,jid,...|min-hour-day-month (day and month optional)\n- scstatus contact|min-hour-day-month\n- scstatus delete all|min-hour-day-month\n- scstatus list",
+      "desc": "Schedule a WhatsApp status to be sent at a specified time. Use 'contact' for imported contacts or provide specific JIDs.",
+      "reply_required": "Please reply to a message to schedule the status.",
+      "invalid": "Invalid format. Please follow one of the examples provided.",
+      "scheduled": "_Successfully scheduled to send at_ {0}.",
+      "list": "Scheduled status list:",
+      "deleted": "Schedule deleted."
     },
     "antispam": {
-      "desc": "مدیریت محافظت ضد اسپم با سطوح قابل تنظیم",
-      "usage": "استفاده: antispam <on/off/low/medium/high/warn/delete/kick/info>",
-      "disabled_status": "📊 *وضعیت ضد اسپم*\n\n🔴 غیرفعال\n\nاز `antispam on` برای فعال‌سازی استفاده کن",
-      "info_status": "📊 *وضعیت ضد اسپم*\n\n{status}\nسطح: {level}\nعملیات: {action}",
-      "deactivated": "⚠️ *محافظت ضد اسپم غیرفعال شد*\n\nتشخیص اسپم الان خاموشه",
-      "activated": "✅ *محافظت ضد اسپم فعال شد*\n\nسطح: {level} ({description})\nعملیات: {action}",
-      "level_set": "✅ *سطح تغییر کرد*\n\nسطح جدید: {level}",
-      "action_set": "✅ *عملیات تغییر کرد*\n\nبا اسپمرها اینطوری رفتار میشه: {action_desc}",
-      "invalid_level": "❌ سطح نامعتبر. از اینا استفاده کن: low, medium, high",
-      "help": "📖 *راهنمای ضد اسپم*\n\n*دستورات:*\n• `antispam on` - فعال‌سازی (پیش‌فرض: medium)\n• `antispam off` - غیرفعال‌سازی\n• `antispam <low/medium/high>` - تغییر حساسیت\n• `antispam <warn/delete/kick>` - تغییر عملیات\n• `antispam info` - مشاهده تنظیمات فعلی\n\n*سطوح:*\n• Low - آزاد (گروه‌های فعال)\n• Medium - متعادل (پیشنهادی)\n• High - سخت‌گیرانه (گروه‌های مشکل‌دار)",
-      "spam_warning": "⚠️ @{mention} اسپم نکن!",
-      "action_warn": "هشدار داده شد (اخراج نشد)",
-      "action_delete": "فقط پیام‌ها حذف شدن",
-      "action_kick": "از گروه اخراج شد"
+      "desc": "Manage antispam protection with configurable levels",
+      "usage": "Use: antispam <on/off/low/medium/high/warn/delete/kick/info>",
+      "disabled_status": "📊 *Antispam Status*\n\n🔴 Disabled\n\nUse `antispam on` to enable protection",
+      "info_status": "📊 *Antispam Status*\n\n{status}\nLevel: {level}\nAction: {action}",
+      "deactivated": "⚠️ *Antispam Protection Disabled*\n\nSpam detection is now OFF",
+      "activated": "✅ *Antispam Protection Enabled*\n\nLevel: {level} ({description})\nAction: {action}",
+      "level_set": "✅ *Level Changed*\n\nNew level: {level}",
+      "action_set": "✅ *Action Changed*\n\nSpammers will be: {action_desc}",
+      "invalid_level": "❌ Invalid level. Use: low, medium, high",
+      "help": "📖 *Antispam Help*\n\n*Commands:*\n• `antispam on` - Enable (default: medium)\n• `antispam off` - Disable\n• `antispam <low/medium/high>` - Change sensitivity\n• `antispam <warn/delete/kick>` - Change action\n• `antispam info` - View current settings\n\n*Levels:*\n• Low - Relaxed (active groups)\n• Medium - Balanced (recommended)\n• High - Strict (problem groups)",
+      "spam_warning": "⚠️ @{mention} Stop spamming!",
+      "action_warn": "warned (not kicked)",
+      "action_delete": "messages deleted only",
+      "action_kick": "kicked from group"
     },
     "sticker": {
-      "desc": "تبدیل هر عکس یا ویدیو به استیکر خفن! ✨",
-      "reply_required": "هی! باید روی عکس یا ویدیو ریپلای کنی. 📸"
+      "desc": "Turn any image or video into a cool sticker! ✨",
+      "reply_required": "Hey! You need to reply to an image or video first. 📸"
     },
     "circle": {
-      "desc": "تبدیل عکس به استیکر دایره‌ای.",
-      "reply_required": "لطفاً روی عکس ریپلای کن."
+      "desc": "Convert an image into a circular sticker.",
+      "reply_required": "Please reply to an image."
     },
     "take": {
-      "usage": "مثال: take <نام,هنرمندان,لینک> (ریپلای روی استیکر یا صدا). برای صدا، نام اجباریه؛ هنرمندان و لینک اختیاری.",
-      "desc": "تغییر پک استیکر با آپدیت اطلاعاتش. اگه روی استیکر ریپلای کنی، اطلاعات پک آپدیت میشه. اگه روی صدا، اطلاعات (نام، هنرمندان، لینک) اضافه میشه.",
-      "reply_required": "لطفاً روی استیکر یا پیام صوتی ریپلای کن.",
-      "additional_info": "برای اطلاعات صوتی، هنرمندان یا لینک اختیاریه."
+      "usage": "Example: take <title,artists,url> (reply to a sticker or audio). For audio, title is required; artists and URL are optional.",
+      "desc": "Change the sticker pack by updating its metadata. If replying to a sticker, update its pack metadata. If replying to audio, add metadata (title, artists, URL) to the file.",
+      "reply_required": "Please reply to a sticker or audio message.",
+      "additional_info": "For audio metadata, the artists or URL are optional."
     },
     "mp4": {
-      "desc": "تبدیل استیکر متحرک (WebP) به ویدیوی MP4.",
-      "reply_required": "لطفاً روی استیکر متحرک ریپلای کن."
+      "desc": "Convert an animated sticker (WebP) into an MP4 video.",
+      "reply_required": "Please reply to an animated sticker."
     },
     "story": {
-      "usage": "مثال: story <نام‌کاربری> (یا ریپلای روی پیام حاوی نام‌کاربری)",
-      "desc": "دانلود استوری‌های اینستاگرام برای نام‌کاربری مشخص. اگه چند استوری باشه، لیستی برای انتخاب نشون داده میشه.",
-      "not_found": "استوری برای این نام‌کاربری پیدا نشد.",
-      "list": "{0} استوری موجوده. لطفاً یکی رو انتخاب کن.\n"
+      "usage": "Example: story <username> (or reply to a message containing the username)",
+      "desc": "Download Instagram stories for the specified username. If multiple stories are available, a list will be provided for selection.",
+      "not_found": "No stories found for the provided username.",
+      "list": "Total {0} stories available. Please select one to download.\n"
     },
     "tag": {
-      "usage": "مثال: tag all | tag admin | tag notadmin | tag <پیام سفارشی> (یا ریپلای با 'tag')",
-      "desc": "تگ کردن اعضای گروه بر اساس انتخابت. 'all' برای همه، 'admin' فقط مدیران، 'notadmin' فقط غیرمدیران، یا پیام سفارشی با منشن‌ها."
+      "usage": "Example: tag all | tag admin | tag notadmin | tag <custom message> (or reply to a message with 'tag')",
+      "desc": "Tag members in the group based on your choice. Use 'all' to mention every member, 'admin' to mention only group admins, 'notadmin' to mention non-admin members, or provide a custom message to be sent along with the mentions."
     },
     "tictactoe": {
-      "usage": "مثال: tictactoe <آیدی_حریف> یا tictactoe normal <آیدی_حریف> یا tictactoe restart <آیدی_حریف> یا tictactoe end\nحالت پیش‌فرض بی‌نهایته، از 'tictactoe normal' برای حالت عادی استفاده کن.",
-      "desc": "بازی دوز با حریف. با منشن، ریپلای یا آیدی حریف رو انتخاب کن. 'tictactoe end' برای پایان و 'tictactoe restart' برای شروع مجدد.",
-      "choose_opponent": "لطفاً با ریپلای یا منشن، حریف رو انتخاب کن. نمی‌تونی با خودت بازی کنی!",
-      "game_ended": "بازی تموم شد.",
-      "game_restarted": "بازی با حریف جدید ریستارت شد.",
-      "invalid_input": "ورودی نامعتبر. لطفاً حریف معتبر بده یا از 'end' و 'restart' استفاده کن.",
-      "players": "بازیکنان",
-      "already_occupied": "_قبلاً پر شده_",
-      "current_player": "بازیکن فعلی",
-      "game_finish": "پایان بازی 🏁",
-      "winner": "برنده",
-      "restart": "ریستارت بازی",
-      "header": "---دوز---"
+      "usage": "Example: tictactoe <opponent_jid> OR tictactoe normal <opponent_jid> OR tictactoe restart <opponent_jid> OR tictactoe end\nDefault mode is infinite, use 'tictactoe normal' for normal mode.",
+      "desc": "Play a TicTacToe game against an opponent. Challenge a user by mentioning them, replying to their message, or specifying their JID. Use 'tictactoe end' to finish the game and 'tictactoe restart <opponent_jid>' to restart with a new opponent. Default mode is infinite, use 'tictactoe normal' for normal mode.",
+      "choose_opponent": "Please choose an opponent by replying to a message or mentioning a user. You cannot play against yourself.",
+      "game_ended": "Game ended.",
+      "game_restarted": "Game restarted with the new opponent.",
+      "invalid_input": "Invalid input. Please provide a valid opponent or use 'end' or 'restart' appropriately.",
+      "players": "Players",
+      "already_occupied": "_Already Occupied_",
+      "current_player": "Current Player",
+      "game_finish": "Game Finish 🏁",
+      "winner": "Winner",
+      "restart": "Restart Game",
+      "header": "---Tic Tac Toe---"
     },
     "tiktok": {
-      "usage": "استفاده: tiktok <لینک> (یا ریپلای روی لینک)",
-      "desc": "دانلود ویدیوهای تیک‌تاک بدون واترمارک آزاردهنده! 🎬",
-      "not_found": "ویدیو پیدا نشد. لینک درسته؟ 🧐"
+      "usage": "Usage: tiktok <URL> (or reply to a link)",
+      "desc": "Download TikTok videos without that annoying watermark! 🎬",
+      "not_found": "Couldn't find that video. Is the link correct? 🧐"
     },
     "tog": {
-      "usage": "مثال: tog ping off",
-      "desc": "فعال یا غیرفعال‌سازی یه دستور ربات.",
-      "invalid": "ورودی نامعتبر. استفاده: tog <دستور> on|off (مثلاً tog ping off)",
-      "self_reference": "واقعاً میخوای منو بکشی؟",
-      "enabled": "{0} فعال شد.",
-      "disabled": "{0} غیرفعال شد."
+      "usage": "Example: tog ping off",
+      "desc": "Enable or disable a bot command.",
+      "invalid": "Invalid input. Use: tog <command> on|off (e.g., tog ping off)",
+      "self_reference": "Did you really want to kill me?",
+      "enabled": "{0} Enabled.",
+      "disabled": "{0} Disabled."
     },
     "trt": {
-      "usage": "مثال: trt سلام (ریپلای روی پیام)",
-      "desc": "ترجمه هر متنی فوری با گوگل ترنسلیت! 🌍"
+      "usage": "Example: trt hi (reply to a message)",
+      "desc": "Translate any text instantly with Google Translate! 🌍"
     },
     "twitter": {
-      "usage": "مثال: twitter <لینک> (یا ریپلای روی لینک)",
-      "desc": "دانلود ویدیو از توییتر (X) در یک چشم‌به‌هم‌زدن! 🐦",
-      "not_found": "ویدیویی پیدا نشد. لینک رو چک کن! 🔍",
-      "choose_quality": "> یه کیفیت انتخاب کن:\n"
+      "usage": "Example: twitter <URL> (or reply to a link)",
+      "desc": "Grab videos from Twitter (X) in a snap! 🐦",
+      "not_found": "No video found there. Check the URL! 🔍",
+      "choose_quality": "> Pick a quality:\n"
     },
     "upload": {
-      "usage": "مثال: upload <لینک> (یا ریپلای روی پیام حاوی لینک)",
-      "desc": "دانلود رسانه از لینک. برای لینک‌های کوتاه گوگل ایمیج، لینک مستقیم عکس خودکار گرفته میشه."
+      "usage": "Example: upload <URL> (or reply to a message containing a URL)",
+      "desc": "Download media from a provided URL. For shortened Google Images URLs, the direct image URL is retrieved automatically."
     },
     "url": {
-      "usage": "مثال: url (ریپلای روی عکس/ویدیو)",
-      "desc": "رسانه‌ت رو آپلود کن و لینک مستقیم بگیر! 🔗"
+      "usage": "Example: url (reply to image/video)",
+      "desc": "Upload your media and get a direct link! 🔗"
     },
     "getvar": {
-      "usage": "مثال: getvar sudo",
-      "desc": "نمایش مقدار یک متغیر. کلید متغیر رو بده (بزرگی/کوچکی حروف فرقی نداره).",
-      "not_found": "{0} توی متغیرها پیدا نشد."
+      "usage": "Example: getvar sudo",
+      "desc": "Display the value of a variable. Provide the variable key (case-insensitive) to retrieve its value.",
+      "not_found": "{0} not found in vars."
     },
     "lyrics": {
-      "usage": "مثال: lyrics heat waves",
-      "desc": "پیدا کردن متن آهنگ‌های مورد علاقت! 🎤",
-      "not_found": "متن آهنگ پیدا نشد. اشتباه تایپی؟ 🧐"
+      "usage": "Example: lyrics heat waves",
+      "desc": "Find the lyrics to your favorite songs! 🎤",
+      "not_found": "Couldn't find those lyrics. Typing error? 🧐"
     },
     "delvar": {
-      "usage": "مثال: delvar sudo",
-      "desc": "حذف یک متغیر با دادن کلیدش.",
-      "not_found": "{0} توی متغیرها پیدا نشد.",
-      "deleted": "{0} حذف شد."
+      "usage": "Example: delvar sudo",
+      "desc": "Delete a variable by specifying its key.",
+      "not_found": "{0} not found in vars.",
+      "deleted": "{0} deleted."
     },
     "setvar": {
-      "usage": "مثال: setvar key = value",
-      "desc": "ست کردن یک متغیر با کلید و مقدار مشخص. از '=' برای جدا کردن استفاده کن.",
-      "success": "متغیر جدید {0} با مقدار {1} اضافه شد."
+      "usage": "Example: setvar key = value",
+      "desc": "Set a variable with a specific key and value. Use '=' to separate the key from the value.",
+      "success": "New var {0} added as {1}."
     },
     "allvar": {
-      "desc": "نمایش همه متغیرهای ذخیره‌شده به ترتیب."
+      "desc": "Display all stored variables in sorted order."
     },
     "vote": {
-      "usage": "> مثال:\nvote q|رنگ مورد علاقت چیه؟\no|😀|آبی\no|😊|قرمز",
-      "desc": "شروع یه نظرسنجی در گروه واتساپ.",
-      "notes": "اگه گیرنده‌ای مشخص نشه، پیام نظرسنجی به گروه فعلی ارسال میشه.",
-      "no_vote": "نظرسنجی وجود نداره!",
-      "total_vote": "کل آرا : *{0}*",
-      "delete_vote": "نظرسنجی فعلی رو حذف کن تا جدید بذاری.",
-      "option_required": "حداقل دو گزینه لازمه",
-      "question_required": "سوال لازمه",
-      "vote": "ری‌اکشن بزن یا به گزینه جواب بده.",
-      "vote_deleted": "_نظرسنجی حذف شد._",
-      "voted": "@{0} به {1} رأی داد\n\n${2}"
+      "usage": "> Example :\nvote q|What your favorite color?\no|😀|Blue\no|😊|Red",
+      "desc": "Initiate a vote in a WhatsApp group.",
+      "notes": "If no recipients are specified, the vote message will simply be sent to the current group.",
+      "no_vote": "No votes available!",
+      "total_vote": "total votes : *{0}*",
+      "delete_vote": "Delete the current vote to set a new one.",
+      "option_required": "two or more options required",
+      "question_required": "question required",
+      "vote": "React or reply option to vote.",
+      "vote_deleted": "_Vote deleted._",
+      "voted": "@{0} voted for {1}\n\n${2}"
     },
     "warn": {
-      "usage": "مثال: warn @کاربر یا warn reset @کاربر. همچنین می‌تونی روی پیام کاربر ریپلای کنی و بزنی 'warn' یا 'warn reset'.",
-      "desc": "هشدار دادن به کاربر در گروه. تعداد هشدار بالا میره. اگه از حد بگذره، کاربر اخراج میشه. 'warn reset' برای پاک کردن هشدارها.",
-      "reset_usage": "مثال: warn reset @کاربر (یا ریپلای روی پیام کاربر و بزن warn reset).",
-      "cannot_remove_admin": "نمی‌تونم مدیر رو حذف کنم.",
-      "kick_default": "{0} بخاطر رد کردن حد هشدار اخراج شد.",
-      "warn_default": "⚠️ هشدار {0}! {1}/{2} هشدار باقی‌مانده."
+      "usage": "Example: warn @user OR warn reset @user. You can also reply to a user's message and type 'warn' or 'warn reset'.",
+      "desc": "Warn a user in the group chat. This command increases a user's warning count. If the count exceeds the limit, the user will be kicked from the group. Use 'warn reset' to clear a user's warnings.",
+      "reset_usage": "Example: warn reset @user (or reply to a user's message and type 'warn reset').",
+      "cannot_remove_admin": "I cannot remove an admin.",
+      "kick_default": "{0} has been kicked for exceeding warn limit.",
+      "warn_default": "⚠️ Warning {0}! {1}/{2} warnings remaining."
     },
     "wcg": {
-      "usage": "مثال‌ها:\n- wcg start (شروع اجباری بازی زنجیره کلمات)\n- wcg end (پایان بازی فعلی)\nحالت پیش‌فرض آسونه.",
-      "desc": "بازی زنجیره کلمات: با ارسال کلمه ادامه بده. 'wcg start' برای شروع اجباری و 'wcg end' برای پایان.",
-      "game_ends": "بازی تموم شد",
-      "already_used": "_این کلمه قبلاً استفاده شده!_",
-      "not_starting_with": "_{0} با {1} شروع نمیشه_",
-      "length_limit": "_این کلمه زیر {0} حرفه_",
-      "not_in_list": "_این کلمه توی لیست من نیست_",
-      "turn_info": "🎲نوبت : @{0}\n🙌بعدی : @{1}\n🆎با {2} شروع بشه (حداقل {3} حرف)\n🏆بازیکنان باقی‌مانده : {4}/{5}\n⏳ {6} ثانیه وقت داری\n📝کل کلمات : {7}",
-      "timeout": "وقتت تموم شد @{0}! حذفی! 🚫",
-      "winner": "@{0} برنده بازی شد 🏆\nکلمات : *{1}*\nبلندترین کلمه : *{2} ({3})* از @{4} 📚\nزمان : *{5}* ⏱️",
-      "joined": "@{0} جوین شد 👏",
-      "starting": "🎮 بازی داره شروع میشه...\n👥 حداقل ۲ نفر لازمه\n⏳ ۶۰ ثانیه وقت داری جوین بشی ⏳\n🧩 حالت {0}",
-      "starts_in": "🎮 بازی تا {0} ثانیه دیگه شروع میشه ⏳\nتایپ کن *join* برای بازی 🙋‍♂️🙋‍♀️\n🧩 حالت {1}{2}",
-      "players_count": "\n\n👥 {0} نفر جوین شدن.",
-      "terminated": "_بازیکن کافی نبود. بازی لغو شد._",
-      "mode_update": "_حالت بازی زنجیره کلمات به {0} تغییر کرد_"
+      "usage": "Examples:\n- wcg start (force start the word chain game)\n- wcg end (end the current game)\nDefault mode is easy.",
+      "desc": "Word Chain Game: continue the word chain by submitting a word. use 'wcg start' to force start and 'wcg end' to stop.",
+      "game_ends": "Game Ends",
+      "already_used": "_This word is already used!_",
+      "not_starting_with": "_{0} is not starting with_ {1}",
+      "length_limit": "_This word is below {0} length_",
+      "not_in_list": "_This word is not in my list_",
+      "turn_info": "🎲Turn : @{0}\n🙌Next : @{1}\n🆎Starts with {2} (at least {3} letters)\n🏆Players left : {4}/{5}\n⏳ You have *{6}* seconds to reply\n📝Total words : {7}",
+      "timeout": "Time out @{0}! You are out! 🚫",
+      "winner": "@{0} won the game 🏆\nWords : *{1}*\nLongest word : *{2} ({3})* by @{4} 📚\nTime : *{5}* ⏱️",
+      "joined": "@{0} joined 👏",
+      "starting": "🎮 Game starting...\n👥 Need 2 or more players\n⏳ You have 60 seconds to join ⏳\n🧩 Mode {0}",
+      "starts_in": "🎮 Game starts in {0} seconds ⏳\nType *join* to play 🙋‍♂️🙋‍♀️\n🧩 Mode {1}{2}",
+      "players_count": "\n\n👥 {0} players joined.",
+      "terminated": "_Not enough players to start. Game terminated._",
+      "mode_update": "_WCG mode updated to {0}_"
     },
     "wrg": {
-      "usage": "مثال‌ها:\n- wrg start (شروع اجباری بازی کلمه تصادفی)\n- wrg hard (شروع در حالت سخت)\n- wrg easy (شروع در حالت آسان)\n- wrg end (پایان بازی)",
-      "desc": "بازی کلمه تصادفی: بازی‌ای که باید به یه کلمه تصادفی جواب بدی. 'wrg start' برای شروع و 'wrg end' برای پایان."
+      "usage": "Examples:\n- wrg start (force start the random word game)\n- wrg hard (start in hard mode)\n- wrg easy (start in easy mode)\n- wrg end (end the current game)",
+      "desc": "Random Word Game: Engage in a game where you submit words in response to a random prompt. Use 'wrg start' to begin a new game or 'wrg end' to finish the game."
     },
     "google": {
-      "usage": "مثال: google چطوری قهوه درست کنم",
-      "desc": "جستجوی گوگل برای هر چیزی! 🌐"
+      "usage": "Example: google how to make coffee",
+      "desc": "Search Google for anything! 🌐"
     },
     "yts": {
-      "usage": "مثال: yts baymax",
-      "desc": "جستجوی هر ویدیویی در یوتیوب! 🔍",
-      "title": "*عنوان :* ",
-      "time": "*زمان :* ",
-      "views": "*بازدید :* ",
-      "publish": "*تاریخ :* ",
-      "desc_label": "*توضیحات :* ",
-      "author": "*سازنده :* ",
-      "url": "*لینک :* "
+      "usage": "Example: yts baymax",
+      "desc": "Search for any video on YouTube! 🔍",
+      "title": "*Title :* ",
+      "time": "*Time :* ",
+      "views": "*Views :* ",
+      "publish": "*Publish :* ",
+      "desc_label": "*Desc :* ",
+      "author": "*Author :* ",
+      "url": "*Url :* "
     },
     "song": {
-      "usage": "مثال: song heat waves یا <لینک یوتیوب>",
-      "desc": "دانلود هر آهنگی از یوتیوب! 🎵",
-      "not_found": "آهنگ پیدا نشد. اسم دیگه‌ای امتحان کن! 🎧",
-      "no_result": "_نتیجه‌ای برای_ *{0}* _پیدا نشد_",
+      "usage": "Example: song heat waves OR <YouTube URL>",
+      "desc": "Download any song from YouTube! 🎵",
+      "not_found": "I couldn't find that song. Try another name! 🎧",
+      "no_result": "_No results for_ *{0}*",
       "id_label": "🆔&id\n",
-      "list_header": "{0} جستجو شد و {1} نتیجه پیدا شد\n🆔 بفرست تا آهنگ دانلود بشه.\n"
+      "list_header": "Searched {0} and Found {1} results\nsend 🆔 to download song.\n"
     },
     "video": {
-      "usage": "مثال: video heat waves یا <لینک یوتیوب>",
-      "desc": "دانلود ویدیو از یوتیوب با کیفیت بالا! 🎥",
-      "not_found": "ویدیو پیدا نشد. اسم یا لینک رو چک کن! 📺",
-      "list_header": "{0} جستجو شد\n{1} نتیجه پیدا شد"
+      "usage": "Example: video heat waves OR <YouTube URL>",
+      "desc": "Download videos from YouTube in high quality! 🎥",
+      "not_found": "No video found. Check the name or link! 📺",
+      "list_header": "Searched {0}\nFound {1} results"
     },
     "lofi": {
-      "desc": "دانلود صدای لوفای از Tidal",
-      "usage": "_اسم آهنگ رو بده_",
-      "no_result": "_نتیجه‌ای برای_ *{0}* _پیدا نشد_",
-      "error_download": "_خطا در دانلود لوفای: {0}_",
-      "error_search": "_خطا در جستجوی لوفای: {0}_",
-      "list_header": "{0} جستجو شد و {1} نتیجه پیدا شد\n🆔 بفرست تا لوفای دانلود بشه.\n"
+      "desc": "Download lofi audio from Tidal",
+      "usage": "_Provide a song name_",
+      "no_result": "_No results for_ *{0}*",
+      "error_download": "_Error downloading lofi audio: {0}_",
+      "error_search": "_Error searching lofi: {0}_",
+      "list_header": "Searched {0} and Found {1} results\nsend 🆔 to download lofi.\n"
     },
     "update": {
-      "usage": "مثال: update",
-      "desc": "بررسی آپدیت‌های جدید. آپدیت‌های موجود یا تأیید به‌روز بودن ربات.",
-      "up_to_date": "ربات از قبل به‌روزه.",
-      "available": "{0} آپدیت جدید موجود:\n{1}"
+      "usage": "Example: update",
+      "desc": "Check for new updates. Displays available updates or confirms that the bot is up-to-date.",
+      "up_to_date": "Bot is already up-to-date.",
+      "available": "{0} new updates available:\n{1}"
     },
     "update_now": {
-      "usage": "مثال: update now",
-      "desc": "آپدیت ربات به آخرین نسخه.",
-      "up_to_date": "ربات از قبل به‌روزه. آپدیتی نیست.",
-      "updating": "در حال آپدیت ربات...",
-      "updated": "ربات با موفقیت آپدیت شد!"
+      "usage": "Example: update now",
+      "desc": "Update the bot to the latest version.",
+      "up_to_date": "Bot is already up-to-date. No updates available.",
+      "updating": "Updating bot...",
+      "updated": "Bot has been successfully updated!"
     },
     "antigm": {
-      "desc": "مدیریت تنظیمات ضد منشن گروه 🛡️",
-      "usage": "> رئیس! از اینا استفاده کن:\n- antigm on | off\n- antigm delete | warn | kick\n- antigm ignore jid,jid,...",
-      "action": "عملیات آپدیت شد رئیس! منشن گروه الان باعث *{0}* میشه. 🛡️",
-      "filter": "لیست آیدی‌ها آپدیت شد رئیس! دستم هست. 📝",
-      "enabled": "ضد منشن گروه فعال شد! دارم زیر نظر دارم. 👀🛡️",
-      "disabled": "ضد منشن گروه غیرفعال شد. دیگه نظارت نمیکنم. ❌",
-      "ignore_prompt": "*رئیس، لطفاً آیدی مورد نظر رو بده.* 🕵️‍♂️"
+      "desc": "Manage anti group mention settings 🛡️",
+      "usage": "> Hey Boss! Use these to control group mentions:\n- antigm on | off\n- antigm delete | warn | kick\n- antigm ignore jid,jid,...",
+      "action": "Action updated, Boss! Group mentions will now result in *{0}*. 🛡️",
+      "filter": "Filtering JIDs updated, Boss! I've got the list. 📝",
+      "enabled": "Anti group mention is now active! I'm watching closely. 👀🛡️",
+      "disabled": "Anti group mention is off. I've stopped monitoring. ❌",
+      "ignore_prompt": "*Boss, please provide a JID to ignore.* 🕵️‍♂️"
     },
     "antigstatus": {
-      "desc": "مدیریت تنظیمات ضد وضعیت گروه 🛡️",
-      "usage": "> رئیس! از اینا استفاده کن:\n- antigstatus on | off\n- antigstatus ignore jid,jid,...\n- antigstatus unignore jid,jid,...\n- antigstatus list\n- antigstatus clear",
-      "filter": "لیست آیدی‌ها آپدیت شد رئیس! دستم هست. 📝",
-      "enabled": "ضد وضعیت گروه فعال شد! دارم زیر نظر دارم. 👀🛡️",
-      "disabled": "ضد وضعیت گروه غیرفعال شد. دیگه نظارت نمیکنم. ❌",
-      "status": "*ضد وضعیت گروه:* `{0}`\n*گروه‌های نادیده‌گرفته‌شده:* `{1}`",
-      "ignore_prompt": "*رئیس، لطفاً آیدی مورد نظر رو بده.* 🕵️‍♂️",
-      "unignore_prompt": "*رئیس، لطفاً آیدی مورد نظر رو بده.* 🕵️‍♂️",
-      "removed": "آیدی‌ها از لیست نادیده حذف شدن رئیس! 🗑️",
-      "list_empty": "*گروهی توی لیست نادیده نیست رئیس.*",
-      "list_header": "*گروه‌های نادیده‌گرفته‌شده:*",
-      "cleared": "*لیست نادیده پاک شد رئیس.* 🧹"
+      "desc": "Manage anti group status settings 🛡️",
+      "usage": "> Hey Boss! Use these to control group statuses:\n- antigstatus on | off\n- antigstatus ignore jid,jid,...\n- antigstatus unignore jid,jid,...\n- antigstatus list\n- antigstatus clear",
+      "filter": "Filtering JIDs updated, Boss! I've got the list. 📝",
+      "enabled": "Anti group status is now active! I'm watching closely. 👀🛡️",
+      "disabled": "Anti group status is off. I've stopped monitoring. ❌",
+      "status": "*Anti group status:* `{0}`\n*Ignored groups:* `{1}`",
+      "ignore_prompt": "*Boss, please provide a JID to ignore.* 🕵️‍♂️",
+      "unignore_prompt": "*Boss, please provide a JID to unignore.* 🕵️‍♂️",
+      "removed": "JIDs removed from ignore list, Boss! 🗑️",
+      "list_empty": "*No groups in the ignore list, Boss.*",
+      "list_header": "*Ignored groups:*",
+      "cleared": "*Ignore list cleared, Boss.* 🧹"
     },
     "reminder": {
-      "desc": "اضافه کردن یادآوری به تقویم گوگل (پشتیبانی از زبان طبیعی).",
-      "usage": "*راهنمای یادآوری:*\n\n- reminder <متن> (اضافه کردن رویداد)\n- reminder list (مشاهده رویدادهای پیش رو)\n- reminder del <id> (حذف رویداد)\n- مثال: `reminder فردا ساعت ۱۰ جلسه`",
-      "success": "*یادآوری اضافه شد!*\n\n*رویداد:* {0}\n*زمان:* {1}\n*لینک:* {2}",
-      "list": "*یادآوری‌های پیش رو:*\n\n{0}",
-      "list_empty": "یادآوری پیش‌رویی پیدا نشد.",
-      "deleted": "یادآوری با موفقیت حذف شد!",
-      "invalid_id": "شناسه یادآوری نامعتبره.",
-      "auth_required": "*احراز هویت لازمه:*\n\nاز \"gauth\" برای احراز هویت ربات استفاده کن.",
-      "time": "زمان",
-      "id": "شناسه",
-      "short_id_info": "\n\n*توجه:* فقط ۲ تا ۴ کاراکتر اول شناسه برای حذف کافیه."
+      "desc": "Add a reminder to Google Calendar (natural language supported).",
+      "usage": "*Reminder Command Usage:*\n\n- reminder <text> (add event)\n- reminder list (view upcoming)\n- reminder del <id> (delete event)\n- Example: `reminder tomorrow at 10am meeting`",
+      "success": "*Reminder Added!*\n\n*Event:* {0}\n*Time:* {1}\n*Link:* {2}",
+      "list": "*Upcoming Reminders:*\n\n{0}",
+      "list_empty": "No upcoming reminders found.",
+      "deleted": "Reminder deleted successfully!",
+      "invalid_id": "Invalid reminder ID.",
+      "auth_required": "*Authentication Required:*\n\nUse \"gauth\" to authorize the bot.",
+      "time": "Time",
+      "id": "ID",
+      "short_id_info": "\n\n*Note:* You only need to enter the first 2-4 characters of the ID for the delete command."
     },
     "gauth": {
-      "desc": "مدیریت احراز هویت گوگل (احراز هویت، وارد کردن، خروج، وضعیت). اختیاری برای یوتیوب ولی اجباری برای امکانات ویژه.",
-      "usage": "*دستورات احراز هویت گوگل:*\n\n- `.gauth auth` — شروع فرآیند احراز هویت.\n- `.gauth code <url_or_code>` — تأیید کد احراز هویت.\n- `.gauth import` — وارد کردن `credentials.json` (ریپلای روی فایل).\n- `.gauth status` — بررسی وضعیت فعلی احراز هویت.\n- `.gauth logout` — پاک کردن اطلاعات و توکن‌ها.\n\n*توجه:* احراز هویت گوگل برای یوتیوب اختیاریه ولی برای ویدیوهای محدودسنی و گوگل درایو/تقویم/تسک اجباریه.",
-      "prompt": "*راهنمای راه‌اندازی احراز هویت گوگل:*\n\n1. *ساخت پروژه:* برو به https://console.cloud.google.com/، \"Select a project\" > \"New Project\"، اسم بذار \"Levanter\" و \"Create\" بزن.\n2. *فعال‌سازی API:* برو به \"APIs & Services\" > \"Library\". \"Google Drive API\"، \"Google Calendar API\" و \"Google Tasks API\" رو جستجو و فعال کن.\n3. *OAuth Consent:* برو به \"APIs & Services\" > \"OAuth consent screen\". \"External\" رو انتخاب کن، فیلدهای لازم رو پر کن، و در بخش \"Audience\"، ایمیلت رو به \"Test users\" اضافه کن (اجباری).\n4. *اعتبارنامه:* برو به \"APIs & Services\" > \"Credentials\". \"Create Credentials\" > \"OAuth client ID\". \"Desktop app\" رو انتخاب کن، اسم بذار و \"Create\" بزن.\n5. *دانلود:* کنار Client ID جدیدت، آیکون دانلود (JSON) رو بزن. ذخیره کن و با `.gauth import` ریپلای کن روی فایل.\n6. *احراز هویت:* حالا روی لینک زیر بزن:\n{0}\n\n7. *تأیید:* لاگین کن، هشدار \"Unverified app\" رو بپذیر (\"Advanced\" > \"Go to Levanter\")، بعد از ریدایرکت URL کامل رو از نوار مرورگر کپی کن و بفرست:\n`.gauth code <url_کپی‌شده>`",
-      "success": "احراز هویت موفق بود!",
-      "import_success": "`credentials.json` با موفقیت وارد شد! حالا از `.gauth auth` برای احراز هویت استفاده کن.",
-      "import_reply": "لطفاً روی فایل `credentials.json` ریپلای کن.",
-      "status_auth": "*وضعیت:* احراز هویت شده برای جلسه.",
-      "status_not_auth": "*وضعیت:* احراز هویت نشده. از `.gauth auth` استفاده کن.",
-      "logout": "خروج انجام شد و اطلاعات احراز هویت گوگل پاک شد.",
-      "failed": "*ناموفق:* {0}"
+      "desc": "Manage Google Authentication (Authenticate, Import, Logout, Status). Optional for YouTube but required for premium features.",
+      "usage": "*Google Auth Commands:*\n\n- `.gauth auth` — Start the authentication process.\n- `.gauth code <url_or_code>` — Validate the authentication code.\n- `.gauth import` — Import `credentials.json` (Reply to the file).\n- `.gauth status` — Check current authentication status.\n- `.gauth logout` — Clear credentials and tokens for this session.\n\n*Note:* Google Auth is optional for general YouTube features but required for age-restricted videos and Google Drive/Calendar/Tasks integrations.",
+      "prompt": "*Google Authentication Setup Guide:*\n\n1. *Create Project:* Go to https://console.cloud.google.com/, click \"Select a project\" > \"New Project\", name it \"Levanter\" and click \"Create\".\n2. *Enable APIs:* Go to \"APIs & Services\" > \"Library\". Search and enable \"Google Drive API\", \"Google Calendar API\" and \"Google Tasks API\".\n3. *OAuth Consent:* Go to \"APIs & Services\" > \"OAuth consent screen\". Choose \"External\", fill required fields, and in the \"Audience\" section, add your email to \"Test users\" (MANDATORY).\n4. *Credentials:* Go to \"APIs & Services\" > \"Credentials\". Click \"Create Credentials\" > \"OAuth client ID\". Select \"Desktop app\" as the application type, name it, and click \"Create\".\n5. *Download:* Beside your new Client ID, click the Download (JSON) icon. Save it and use `.gauth import` by replying to the file.\n6. *Authorize:* Now click the link below to authorize:\n{0}\n\n7. *Complete:* Log in, accept the \"Unverified app\" warning (Click \"Advanced\" > \"Go to Levanter\"), copy the full URL from the bar after redirect, and send:\n`.gauth code <copied_url>`",
+      "success": "Authentication successful!",
+      "import_success": "`credentials.json` imported successfully! Now use `.gauth auth` to authorize.",
+      "import_reply": "Please reply to a `credentials.json` file.",
+      "status_auth": "*Status:* Authenticated for session.",
+      "status_not_auth": "*Status:* Not authenticated for session. Use `.gauth auth`.",
+      "logout": "Logged out and cleared Google Auth data for session.",
+      "failed": "*Failed:* {0}"
     },
     "gdrive": {
-      "desc": "عملیات گوگل درایو (آپلود، لیست، حذف).",
-      "upload_success": "آپلود کامل شد!",
-      "uploading": "در حال آپلود رسانه به درایو...",
-      "not_authorized": "احراز هویت نشده. از \"backup auth\" استفاده کن.",
-      "list": "*فایل‌های گوگل درایو:*\n\n{0}",
-      "list_empty": "فایلی توی پوشه Levanter پیدا نشد.",
-      "deleted": "فایل با موفقیت حذف شد!",
-      "invalid_id": "لطفاً شناسه فایل معتبر بده.",
-      "error": "*خطا:* {0}",
-      "url_prompt": "لطفاً لینک معتبر بده، روی پیام رسانه تگ کن، یا از زیردستورها استفاده کن: list، del <id>، dl <id>.\nمثال: `gupload list`",
-      "short_id_info": "\n\n*توجه:* فقط ۲ تا ۴ کاراکتر اول شناسه برای دانلود یا حذف کافیه."
+      "desc": "Google Drive operations (upload, list, delete).",
+      "upload_success": "Upload complete!",
+      "uploading": "Uploading media to Drive...",
+      "not_authorized": "Not authorized. Use \"backup auth\".",
+      "list": "*Google Drive Files:*\n\n{0}",
+      "list_empty": "No files found in Levanter folder.",
+      "deleted": "File deleted successfully!",
+      "invalid_id": "Please provide a valid file ID.",
+      "error": "*Error:* {0}",
+      "url_prompt": "Please provide a valid URL, tag a media message, or use subcommands: list, del <id>, dl <id>.\nExample: `gupload list`",
+      "short_id_info": "\n\n*Note:* You only need to enter the first 2-4 characters of the ID for download or delete commands."
     },
     "task": {
-      "desc": "مدیریت تسک‌های گوگل",
-      "usage": "استفاده: task <list | list-lists | list-switch <name> | add <text> | del <id> | done <id> | update <id> <text> | <text>>",
-      "added": "تسک اضافه شد: *{0}*\nمهلت: {1}",
-      "deleted": "تسک حذف شد.",
-      "updated": "تسک *{0}* به وضعیت *{1}* تغییر کرد",
-      "list_empty": "تسکی پیدا نشد.",
-      "list_header": "📝 *تسک‌ها ({0})*:\n",
-      "not_found": "تسک پیدا نشد.",
-      "auth_required": "لطفاً با *.gauth auth* احراز هویت کن و دسترسی Google Tasks رو فعال کن.",
-      "list_lists": "📝 *لیست تسک‌ها*:\n",
-      "switched": "لیست تسک پیش‌فرض به *{0}* تغییر کرد."
+      "desc": "Manage your Google Tasks",
+      "usage": "Usage: task <list | list-lists | list-switch <name> | add <text> | del <id> | done <id> | update <id> <text> | <text>>",
+      "added": "Task added: *{0}*\nDue: {1}",
+      "deleted": "Task deleted.",
+      "updated": "Task *{0}* marked as *{1}*",
+      "list_empty": "No tasks found.",
+      "list_header": "📝 *Tasks ({0})*:\n",
+      "not_found": "Task not found.",
+      "auth_required": "Please authenticate using *.gauth auth* and enable Google Tasks permissions.",
+      "list_lists": "📝 *Task Lists*:\n",
+      "switched": "Switched default task list to *{0}*."
     },
     "spotify": {
-      "desc": "دانلود آهنگ‌ها یا لیست‌های پخش مورد علاقت 🎧",
-      "example": "*مثال :* spotify <لینک>",
-      "downloading": "_دارم {0} آهنگ برات دانلود میکنم! آماده شو!_ 🎧🎶"
+      "desc": "Download your favorite tracks or playlists 🎧",
+      "example": "*Example :* spotify <url>",
+      "downloading": "_Downloading {0} tracks for you, Guys! Get ready to vibe!_ 🎧🎶"
     },
     "audio": {
-      "desc": "ویرایش صوت",
-      "reply_to_audio": "*روی پیام صوتی ریپلای کن*"
+      "desc": "audio mod",
+      "reply_to_audio": "*Reply to an audio message*"
     },
     "img": {
-      "desc": "جستجوی عکس در Pinterest",
-      "example": "*مثال :  img گربه*\n*img 10 گربه*",
-      "no_result": "_عکسی از Pinterest برای {0} پیدا نشد_",
-      "downloading": "_دانلود {0} عکس از Pinterest برای {1}_"
+      "desc": "Pinterest image search",
+      "example": "*Example :  img cats*\n*img 10 cats*",
+      "no_result": "_No Pinterest images found for {0}_",
+      "downloading": "_Downloading {0} Pinterest images of {1}_"
     },
     "react": {
-      "desc": "ری‌اکشن به پیام",
-      "example": "_مثال : react ❣_",
-      "channel_desc": "ری‌اکشن به کانال",
-      "channel_example": "_مثال : creact https://whatsapp.com/channel/xxx/xxx, ❣_",
-      "info_desc": "دریافت اطلاعات کانال",
-      "info_example": "_مثال : cinfo https://whatsapp.com/channel/xxx",
-      "invalid_url": "_لینک کانال نامعتبر_",
-      "metadata_failed": "_دریافت اطلاعات کانال ناموفق بود_",
-      "name": "*نام :* ",
-      "jid": "*آیدی :* ",
-      "subscribers": "*دنبال‌کنندگان :* ",
-      "verification": "*تأیید :* ",
-      "creation": "*ساخت :* ",
-      "description": "*توضیحات :* "
+      "desc": "React to msg",
+      "example": "_Example : react ❣_",
+      "channel_desc": "React to channel",
+      "channel_example": "_Example : creact https://whatsapp.com/channel/xxx/xxx, ❣_",
+      "info_desc": "Get channel info",
+      "info_example": "_Example : cinfo https://whatsapp.com/channel/xxx",
+      "invalid_url": "_Invalid channel URL_",
+      "metadata_failed": "_Could not fetch channel metadata_",
+      "name": "*Name :* ",
+      "jid": "*Jid :* ",
+      "subscribers": "*Subscribers :* ",
+      "verification": "*Verification :* ",
+      "creation": "*Creation :* ",
+      "description": "*Description :* "
     },
     "budget": {
-      "income_desc": "برای ست کردن درآمد",
-      "income_example": "*نوع نیست*\n*مثال : income نوع,مبلغ,توضیح*\n*income حقوق, 500*\n\n*توضیح اختیاریه*",
-      "income_success": "*درآمد این ماه: {0}*",
-      "expense_desc": "برای ست کردن هزینه",
-      "expense_example": "*نوع نیست*\n*مثال : expense نوع,مبلغ,توضیح*\n*expense سینما, 200, اسم_فیلم*\n\n*توضیح اختیاریه*",
-      "expense_success": "*هزینه این ماه: {0}*",
-      "del_desc": "برای حذف درآمد یا هزینه",
-      "del_example": "*مثال : delbudget شناسه*\n\n*شناسه از خلاصه*\n*برای تغییر مبلغ بجاش دوباره وارد کن*",
-      "del_not_found": "_{0} توی لیست نیست._",
-      "del_success": "_{0} از لیست حذف شد._",
-      "summary_desc": "برای گرفتن خلاصه بودجه",
-      "summary_example": "*مثال : summary 1 May 2023, 3 May 2023*",
-      "budget_desc": "ثبت بودجه با هوش مصنوعی — فقط تراکنشت رو توضیح بده",
-      "budget_example": "*تراکنشت رو طبیعی توضیح بده*\n\n*مثال‌ها:*\n_budget spent 50 on coffee_\n_budget got salary 3000_\n_budget paid 200 for rent_\n_budget taxi ride 15_",
-      "budget_failed": "*نتونستم تراکنش رو بفهمم. دوباره تلاش کن.*\n\n_مثال: budget spent 50 on coffee_",
-      "budget_success": "*{0} ثبت شد*\n_مبلغ: {1}_\n_دسته‌بندی: {2}_\n_توضیح: {3}_\n\n*{0} کل این ماه: {4}*"
+      "income_desc": "to set income",
+      "income_example": "*Missing type*\n*Example : income type,amount,remark*\n*income salary, 500*\n\n*remark is optional*",
+      "income_success": "*Income of current month is {0}*",
+      "expense_desc": "to set expense",
+      "expense_example": "*Missing type*\n*Example : expense type,amount,remark*\n*expense movie, 200, movie_name*\n\n*remark is optional*",
+      "expense_success": "*Expense of current month is {0}*",
+      "del_desc": "to delete income | expense",
+      "del_example": "*Example : delbudget id*\n\n*Id from summary*\n*To update amount re-enter again instead of deletion*",
+      "del_not_found": "_{0} not in list._",
+      "del_success": "_{0} removed from the list._",
+      "summary_desc": "to get summary of budget",
+      "summary_example": "*Example : summary 1 May 2023, 3 May 2023*",
+      "budget_desc": "AI-powered budget entry - just describe your transaction",
+      "budget_example": "*Describe your transaction naturally*\n\n*Examples:*\n_budget spent 50 on coffee_\n_budget got salary 3000_\n_budget paid 200 for rent_\n_budget taxi ride 15_",
+      "budget_failed": "*Could not understand the transaction. Please try again.*\n\n_Example: budget spent 50 on coffee_",
+      "budget_success": "*{0} recorded*\n_Amount: {1}_\n_Category: {2}_\n_Remark: {3}_\n\n*{0} total this month: {4}*"
     },
     "exif": {
-      "desc": "استخراج اطلاعات Exif از استیکر",
-      "reply_to_sticker": "*روی استیکر ریپلای کن.*",
-      "failed": "*دانلود استیکر ناموفق بود.*",
-      "not_found": "*اطلاعات Exif توی این استیکر پیدا نشد.*",
-      "pack_id": "*شناسه پک:* ",
-      "pack_name": "*نام پک:* ",
-      "author": "*سازنده:* ",
-      "emojis": "*ایموجی‌ها:* "
+      "desc": "Extract Exif metadata from a sticker",
+      "reply_to_sticker": "*Reply to a sticker.*",
+      "failed": "*Failed to download sticker.*",
+      "not_found": "*No Exif metadata found in this sticker.*",
+      "pack_id": "*Pack ID:* ",
+      "pack_name": "*Pack Name:* ",
+      "author": "*Author:* ",
+      "emojis": "*Emojis:* "
     },
     "bing": {
-      "desc": "هوش مصنوعی بینگ",
-      "example": "*مثال : bing سلام*",
-      "dale_desc": "سازنده عکس بینگ",
-      "dale_cookie_prompt": "لطفاً کوکی بینگ رو ست کن، به https://bing.com/images/create لاگین کن، یکبار از سازنده عکس استفاده کن و بعد کوکی رو کپی کن.",
-      "dale_example": "*مثال :* dale Create a 3D illusion for a WhatsApp profile picture where a boy in a white shirt sits casually on a royal Sofa. Wearing White sneakers,a black T-shirt, and sunglasses, he looks ahead. The background features \"Arjun \" in big and capital Yellow fonts on the black wall."
+      "desc": "bing ai",
+      "example": "*Example : bing Hi*",
+      "dale_desc": "bing image creator",
+      "dale_cookie_prompt": "Please set a bing cookie, log in to https://bing.com/images/create, use bing Image Creator once, and then copy the cookie.",
+      "dale_example": "*Example :* dale Create a 3D illusion for a WhatsApp profile picture where a boy in a white shirt sits casually on a royal Sofa. Wearing White sneakers,a black T-shirt, and sunglasses, he looks ahead. The background features “Arjun ” in big and capital Yellow fonts on the black wall."
     },
     "backup": {
-      "desc": "مدیریت عملیات بک‌آپ: احراز هویت، تأیید، یا اجرای بک‌آپ.",
-      "usage": "*راهنمای بک‌آپ:*\n\n- .gauth auth — احراز هویت برای دسترسی به گوگل درایو.\n- backup now — اجرای فوری بک‌آپ.",
-      "success": "بک‌آپ با موفقیت انجام شد!",
-      "auth_prompt": "لطفاً از `.gauth auth` برای شروع احراز هویت استفاده کن.",
-      "code_prompt": "لطفاً از `.gauth code <url_or_code>` برای تأیید کد استفاده کن.",
-      "downloading": "_در حال دانلود فایل..._"
+      "desc": "Manage backup operations: authenticate, validate, or perform a backup.",
+      "usage": "*Backup Command Usage:*\n\n- .gauth auth — Authenticate your account for Google Drive access.\n- backup now — Perform a backup immediately.",
+      "success": "backup completed successfully!",
+      "auth_prompt": "Please use `.gauth auth` to initiate authentication.",
+      "code_prompt": "Please use `.gauth code <url_or_code>` to validate your code.",
+      "downloading": "_Downloading file..._"
     },
     "poll": {
-      "desc": "ساخت نظرسنجی با چند گزینه.",
-      "example": "*مثال : سوال,گزینه۱,گزینه۲,...*"
+      "desc": "Create a poll with multiple options.",
+      "example": "*Example : question,option1,option2,...*"
     },
     "cmd": {
-      "desc_set": "برای ست کردن دستور",
-      "desc_get": "برای گرفتن دستور",
-      "desc_del": "برای حذف دستور",
-      "reply_to_sticker": "*روی استیکر ریپلای کن*",
-      "example_set": "*مثال : setcmd ping*",
-      "not_set": "*دستوری ست نشده*",
-      "example_del": "*مثال :*\ndelcmd اسم_دستور\nروی استیکر ریپلای کن",
-      "success": "_موفق_",
-      "failed": "_ناموفق_"
+      "desc_set": "to set cmd",
+      "desc_get": "to get cmd",
+      "desc_del": "to del cmd",
+      "reply_to_sticker": "*Reply to a sticker*",
+      "example_set": "*Example : setcmd ping*",
+      "not_set": "*Not set any cmds*",
+      "example_del": "*Example :*\ndelcmd cmdName\nReply to a sticker",
+      "success": "_Success_",
+      "failed": "_Failed_"
     },
     "heroku": {
-      "restart_desc": "ریستارت داینو",
-      "restart_msg": "_در حال ریستارت..._",
-      "shutdown_desc": "خاموش کردن داینو",
-      "shutdown_msg": "_در حال خاموش کردن..._",
-      "quota_desc": "نمایش اطلاعات سهمیه",
-      "quota_total": "سهمیه کل :",
-      "quota_used": "سهمیه استفاده‌شده :",
-      "remaining": "باقی‌مانده :",
+      "restart_desc": "Restart Dyno",
+      "restart_msg": "_Restarting..._",
+      "shutdown_desc": "Dyno off",
+      "shutdown_msg": "_Shutting down..._",
+      "quota_desc": "Show Quota info",
+      "quota_total": "Total Quota :",
+      "quota_used": "Used Quota :",
+      "remaining": "Remaining :",
       "error_prefix": "HEROKU : {0}"
     }
   }
